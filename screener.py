@@ -24,11 +24,11 @@ def check_strategy(df: pd.DataFrame):
 
     # 條件二：OSC不得轉弱
     if osc_this_week >= 0:
-        # 正值必須持續放大
-        condition2 = osc_this_week >= osc_last_week
+        # 正值必須持續放大（不可等於）
+        condition2 = osc_this_week > osc_last_week
     else:
-        # 負值必須向0軸收斂
-        condition2 = abs(osc_this_week) <= abs(osc_last_week)
+        # 負值必須持續向0軸收斂（不可等於）
+        condition2 = abs(osc_this_week) < abs(osc_last_week)
 
     return {
         "close": round(close_this_week, 2),
