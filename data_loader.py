@@ -7,17 +7,11 @@ def download_stock_history(
     stock_id: str,
     market: str,
     period: str = "max",
-    interval: str = "1mo",
+    interval: str = "1d",
 ) -> pd.DataFrame:
     """
-    下載股票歷史資料
-
-    預設：
-        period = "max"
-        interval = "1mo"
-
-    上市：2330.TW
-    上櫃：5483.TWO
+    下載股票歷史資料（日K）
+    再自行轉換成週K
     """
 
     if market == "上市":
@@ -46,4 +40,22 @@ def download_stock_history(
     if isinstance(df.columns, pd.MultiIndex):
         df.columns = [col[0] for col in df.columns]
 
-    return df
+    # 日期欄轉 datetime
+    df["Date"] = pd.to_datetime(df["Date"])
+    df.set_index("Date", inplace=True)
+
+    # 轉成週K（以星期五為每週結束）
+    weekly = df.resample("W-FRI").agg({
+        "Open": "first",
+        "High": "max",
+        "Low": "min",
+        "Close": "last",
+        "Volume": "sum",
+    })
+
+    # 移除沒有交易的週
+    weekly = weekly.dropna()
+
+    weekly.reset_index(inplace=True)
+
+    return weekly

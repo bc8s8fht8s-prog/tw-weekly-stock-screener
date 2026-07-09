@@ -1,1397 +1,87 @@
 {
-    "update_time": "2026-07-09 19:11:17",
+    "update_time": "2026-07-09 20:01:01",
     "scan_count": 1925,
-    "count": 161,
+    "count": 197,
     "stocks": [
-        {
-            "code": "6617",
-            "name": "共信-KY",
-            "market": "上櫃",
-            "industry": "生技醫療業",
-            "close": 110.0,
-            "high": 72.2,
-            "change_percent": 57.82,
-            "osc": 5.019
-        },
-        {
-            "code": "2466",
-            "name": "冠西電",
-            "market": "上市",
-            "industry": "光電業",
-            "close": 98.5,
-            "high": 64.9,
-            "change_percent": 51.77,
-            "osc": 0.323
-        },
-        {
-            "code": "2601",
-            "name": "益航",
-            "market": "上市",
-            "industry": "貿易百貨業",
-            "close": 7.98,
-            "high": 6.89,
-            "change_percent": 46.42,
-            "osc": 0.224
-        },
-        {
-            "code": "2434",
-            "name": "統懋",
-            "market": "上市",
-            "industry": "半導體業",
-            "close": 62.1,
-            "high": 46.95,
-            "change_percent": 42.92,
-            "osc": 2.749
-        },
-        {
-            "code": "6182",
-            "name": "合晶",
-            "market": "上櫃",
-            "industry": "半導體業",
-            "close": 172.5,
-            "high": 134.5,
-            "change_percent": 40.24,
-            "osc": 14.625
-        },
-        {
-            "code": "4556",
-            "name": "旭然",
-            "market": "上櫃",
-            "industry": "其他業",
-            "close": 101.0,
-            "high": 83.9,
-            "change_percent": 39.12,
-            "osc": 6.967
-        },
-        {
-            "code": "3055",
-            "name": "蔚華科",
-            "market": "上市",
-            "industry": "電子通路業",
-            "close": 158.0,
-            "high": 116.0,
-            "change_percent": 36.21,
-            "osc": 7.996
-        },
-        {
-            "code": "6488",
-            "name": "環球晶",
-            "market": "上櫃",
-            "industry": "半導體業",
-            "close": 1350.0,
-            "high": 1170.0,
-            "change_percent": 34.33,
-            "osc": 98.889
-        },
-        {
-            "code": "8033",
-            "name": "雷虎",
-            "market": "上市",
-            "industry": "其他業",
-            "close": 227.0,
-            "high": 169.5,
-            "change_percent": 33.92,
-            "osc": 6.827
-        },
-        {
-            "code": "6525",
-            "name": "捷敏-KY",
-            "market": "上市",
-            "industry": "半導體業",
-            "close": 199.5,
-            "high": 173.5,
-            "change_percent": 32.12,
-            "osc": 11.586
-        },
-        {
-            "code": "2332",
-            "name": "友訊",
-            "market": "上市",
-            "industry": "通信網路業",
-            "close": 24.05,
-            "high": 20.8,
-            "change_percent": 31.42,
-            "osc": 0.525
-        },
-        {
-            "code": "3349",
-            "name": "寶德",
-            "market": "上櫃",
-            "industry": "電腦及週邊設備業",
-            "close": 23.9,
-            "high": 19.5,
-            "change_percent": 31.32,
-            "osc": -0.297
-        },
-        {
-            "code": "2645",
-            "name": "長榮航太",
-            "market": "上市",
-            "industry": "航運業",
-            "close": 240.0,
-            "high": 186.5,
-            "change_percent": 29.38,
-            "osc": 6.988
-        },
-        {
-            "code": "6573",
-            "name": "虹揚-KY",
-            "market": "上市",
-            "industry": "半導體業",
-            "close": 27.95,
-            "high": 23.5,
-            "change_percent": 28.8,
-            "osc": 1.408
-        },
-        {
-            "code": "2484",
-            "name": "希華",
-            "market": "上市",
-            "industry": "電子零組件業",
-            "close": 90.7,
-            "high": 77.2,
-            "change_percent": 24.93,
-            "osc": 7.062
-        },
-        {
-            "code": "5488",
-            "name": "松普",
-            "market": "上櫃",
-            "industry": "電子零組件業",
-            "close": 16.2,
-            "high": 14.35,
-            "change_percent": 24.62,
-            "osc": 0.541
-        },
-        {
-            "code": "1515",
-            "name": "力山",
-            "market": "上市",
-            "industry": "電機機械",
-            "close": 40.15,
-            "high": 33.55,
-            "change_percent": 24.5,
-            "osc": 1.265
-        },
-        {
-            "code": "3374",
-            "name": "精材",
-            "market": "上櫃",
-            "industry": "半導體業",
-            "close": 356.5,
-            "high": 317.5,
-            "change_percent": 24.43,
-            "osc": 18.533
-        },
-        {
-            "code": "4707",
-            "name": "磐亞",
-            "market": "上櫃",
-            "industry": "化學工業",
-            "close": 36.25,
-            "high": 31.0,
-            "change_percent": 23.72,
-            "osc": 2.466
-        },
-        {
-            "code": "6416",
-            "name": "瑞祺電通",
-            "market": "上市",
-            "industry": "通信網路業",
-            "close": 98.4,
-            "high": 92.6,
-            "change_percent": 22.85,
-            "osc": 0.512
-        },
-        {
-            "code": "8109",
-            "name": "博大",
-            "market": "上櫃",
-            "industry": "電子零組件業",
-            "close": 151.0,
-            "high": 130.0,
-            "change_percent": 22.27,
-            "osc": 4.664
-        },
-        {
-            "code": "2949",
-            "name": "欣新網",
-            "market": "上櫃",
-            "industry": "數位雲端",
-            "close": 83.8,
-            "high": 70.5,
-            "change_percent": 21.45,
-            "osc": 1.698
-        },
-        {
-            "code": "6226",
-            "name": "光鼎",
-            "market": "上市",
-            "industry": "光電業",
-            "close": 26.6,
-            "high": 22.05,
-            "change_percent": 20.63,
-            "osc": 1.966
-        },
-        {
-            "code": "4564",
-            "name": "元翎",
-            "market": "上市",
-            "industry": "電機機械",
-            "close": 19.3,
-            "high": 16.35,
-            "change_percent": 20.25,
-            "osc": 0.348
-        },
-        {
-            "code": "8261",
-            "name": "富鼎",
-            "market": "上市",
-            "industry": "半導體業",
-            "close": 325.0,
-            "high": 281.0,
-            "change_percent": 20.15,
-            "osc": 23.445
-        },
-        {
-            "code": "2236",
-            "name": "百達-KY",
-            "market": "上市",
-            "industry": "汽車工業",
-            "close": 176.0,
-            "high": 150.0,
-            "change_percent": 20.14,
-            "osc": 4.871
-        },
-        {
-            "code": "3672",
-            "name": "康聯訊",
-            "market": "上櫃",
-            "industry": "通信網路業",
-            "close": 14.05,
-            "high": 13.05,
-            "change_percent": 20.09,
-            "osc": 0.15
-        },
-        {
-            "code": "6142",
-            "name": "友勁",
-            "market": "上市",
-            "industry": "通信網路業",
-            "close": 11.25,
-            "high": 9.9,
-            "change_percent": 19.68,
-            "osc": 0.087
-        },
-        {
-            "code": "3026",
-            "name": "禾伸堂",
-            "market": "上市",
-            "industry": "電子零組件業",
-            "close": 1005.0,
-            "high": 915.0,
-            "change_percent": 19.36,
-            "osc": 95.006
-        },
-        {
-            "code": "6477",
-            "name": "安集",
-            "market": "上市",
-            "industry": "光電業",
-            "close": 39.85,
-            "high": 35.85,
-            "change_percent": 19.31,
-            "osc": 0.525
-        },
-        {
-            "code": "2483",
-            "name": "百容",
-            "market": "上市",
-            "industry": "電子零組件業",
-            "close": 68.0,
-            "high": 58.5,
-            "change_percent": 19.09,
-            "osc": 4.727
-        },
-        {
-            "code": "6732",
-            "name": "昇佳電子",
-            "market": "上櫃",
-            "industry": "半導體業",
-            "close": 196.0,
-            "high": 178.5,
-            "change_percent": 17.72,
-            "osc": 6.513
-        },
-        {
-            "code": "8150",
-            "name": "南茂",
-            "market": "上市",
-            "industry": "半導體業",
-            "close": 117.0,
-            "high": 114.0,
-            "change_percent": 17.59,
-            "osc": 8.758
-        },
-        {
-            "code": "4541",
-            "name": "晟田",
-            "market": "上櫃",
-            "industry": "其他業",
-            "close": 61.0,
-            "high": 52.7,
-            "change_percent": 17.53,
-            "osc": 0.786
-        },
-        {
-            "code": "3605",
-            "name": "宏致",
-            "market": "上市",
-            "industry": "電子零組件業",
-            "close": 91.2,
-            "high": 83.5,
-            "change_percent": 17.07,
-            "osc": 1.822
-        },
-        {
-            "code": "5483",
-            "name": "中美晶",
-            "market": "上櫃",
-            "industry": "半導體業",
-            "close": 210.5,
-            "high": 192.0,
-            "change_percent": 16.94,
-            "osc": 11.7
-        },
-        {
-            "code": "2061",
-            "name": "風青",
-            "market": "上櫃",
-            "industry": "電器電纜",
-            "close": 74.7,
-            "high": 69.8,
-            "change_percent": 16.72,
-            "osc": 5.57
-        },
-        {
-            "code": "2481",
-            "name": "強茂",
-            "market": "上市",
-            "industry": "半導體業",
-            "close": 213.0,
-            "high": 204.0,
-            "change_percent": 16.71,
-            "osc": 14.886
-        },
-        {
-            "code": "6574",
-            "name": "霈方",
-            "market": "上櫃",
-            "industry": "生技醫療業",
-            "close": 132.5,
-            "high": 127.0,
-            "change_percent": 16.23,
-            "osc": 5.827
-        },
-        {
-            "code": "4198",
-            "name": "欣大健康",
-            "market": "上櫃",
-            "industry": "生技醫療業",
-            "close": 45.4,
-            "high": 40.8,
-            "change_percent": 15.82,
-            "osc": 0.451
-        },
-        {
-            "code": "1467",
-            "name": "南緯",
-            "market": "上市",
-            "industry": "紡織纖維",
-            "close": 8.41,
-            "high": 8.27,
-            "change_percent": 15.21,
-            "osc": 0.15
-        },
-        {
-            "code": "3004",
-            "name": "豐達科",
-            "market": "上市",
-            "industry": "鋼鐵工業",
-            "close": 153.5,
-            "high": 142.5,
-            "change_percent": 14.55,
-            "osc": 2.26
-        },
-        {
-            "code": "2427",
-            "name": "三商電",
-            "market": "上市",
-            "industry": "資訊服務業",
-            "close": 25.25,
-            "high": 24.7,
-            "change_percent": 14.0,
-            "osc": -0.677
-        },
-        {
-            "code": "7402",
-            "name": "邑錡",
-            "market": "上櫃",
-            "industry": "光電業",
-            "close": 131.0,
-            "high": 118.0,
-            "change_percent": 13.91,
-            "osc": -1.014
-        },
-        {
-            "code": "9949",
-            "name": "琉園",
-            "market": "上櫃",
-            "industry": "文化創意業",
-            "close": 29.5,
-            "high": 29.0,
-            "change_percent": 13.9,
-            "osc": 0.311
-        },
-        {
-            "code": "1466",
-            "name": "聚隆",
-            "market": "上市",
-            "industry": "紡織纖維",
-            "close": 16.85,
-            "high": 15.2,
-            "change_percent": 13.85,
-            "osc": -0.052
-        },
-        {
-            "code": "3176",
-            "name": "基亞",
-            "market": "上櫃",
-            "industry": "生技醫療業",
-            "close": 38.2,
-            "high": 35.5,
-            "change_percent": 13.69,
-            "osc": 1.021
-        },
-        {
-            "code": "6164",
-            "name": "華興",
-            "market": "上市",
-            "industry": "光電業",
-            "close": 14.95,
-            "high": 14.6,
-            "change_percent": 13.69,
-            "osc": 0.447
-        },
-        {
-            "code": "3617",
-            "name": "碩天",
-            "market": "上市",
-            "industry": "其他電子業",
-            "close": 242.0,
-            "high": 230.5,
-            "change_percent": 13.62,
-            "osc": -3.908
-        },
-        {
-            "code": "1617",
-            "name": "榮星",
-            "market": "上市",
-            "industry": "電器電纜",
-            "close": 23.5,
-            "high": 20.8,
-            "change_percent": 12.98,
-            "osc": 0.674
-        },
-        {
-            "code": "8930",
-            "name": "青鋼",
-            "market": "上櫃",
-            "industry": "鋼鐵工業",
-            "close": 30.75,
-            "high": 28.8,
-            "change_percent": 12.64,
-            "osc": -0.597
-        },
-        {
-            "code": "3230",
-            "name": "錦明",
-            "market": "上櫃",
-            "industry": "光電業",
-            "close": 52.3,
-            "high": 46.45,
-            "change_percent": 12.59,
-            "osc": -0.63
-        },
-        {
-            "code": "3066",
-            "name": "李洲",
-            "market": "上櫃",
-            "industry": "光電業",
-            "close": 27.2,
-            "high": 25.4,
-            "change_percent": 12.4,
-            "osc": 1.31
-        },
-        {
-            "code": "3521",
-            "name": "台鋼建設",
-            "market": "上櫃",
-            "industry": "建材營造業",
-            "close": 13.6,
-            "high": 13.3,
-            "change_percent": 12.4,
-            "osc": 0.14
-        },
-        {
-            "code": "2059",
-            "name": "川湖",
-            "market": "上市",
-            "industry": "電子零組件業",
-            "close": 8250.0,
-            "high": 7795.0,
-            "change_percent": 12.09,
-            "osc": 455.533
-        },
-        {
-            "code": "8442",
-            "name": "威宏-KY",
-            "market": "上市",
-            "industry": "其他業",
-            "close": 45.5,
-            "high": 42.45,
-            "change_percent": 11.79,
-            "osc": -4.021
-        },
-        {
-            "code": "1810",
-            "name": "和成",
-            "market": "上市",
-            "industry": "玻璃陶瓷",
-            "close": 23.85,
-            "high": 23.0,
-            "change_percent": 11.71,
-            "osc": 0.53
-        },
-        {
-            "code": "1447",
-            "name": "力鵬",
-            "market": "上市",
-            "industry": "紡織纖維",
-            "close": 8.38,
-            "high": 7.52,
-            "change_percent": 11.44,
-            "osc": 0.309
-        },
-        {
-            "code": "2103",
-            "name": "台橡",
-            "market": "上市",
-            "industry": "橡膠工業",
-            "close": 23.05,
-            "high": 22.7,
-            "change_percent": 11.35,
-            "osc": 0.843
-        },
-        {
-            "code": "8462",
-            "name": "柏文",
-            "market": "上市",
-            "industry": "運動休閒",
-            "close": 159.0,
-            "high": 147.0,
-            "change_percent": 11.19,
-            "osc": 0.203
-        },
-        {
-            "code": "8928",
-            "name": "鉅明",
-            "market": "上櫃",
-            "industry": "運動休閒",
-            "close": 23.35,
-            "high": 21.65,
-            "change_percent": 11.19,
-            "osc": -0.319
-        },
-        {
-            "code": "6143",
-            "name": "振曜",
-            "market": "上櫃",
-            "industry": "通信網路業",
-            "close": 104.5,
-            "high": 101.0,
-            "change_percent": 11.17,
-            "osc": -4.401
-        },
-        {
-            "code": "1709",
-            "name": "和益",
-            "market": "上市",
-            "industry": "化學工業",
-            "close": 24.4,
-            "high": 22.15,
-            "change_percent": 11.16,
-            "osc": 0.794
-        },
-        {
-            "code": "6158",
-            "name": "禾昌",
-            "market": "上櫃",
-            "industry": "電子零組件業",
-            "close": 19.15,
-            "high": 18.6,
-            "change_percent": 11.01,
-            "osc": -0.307
-        },
-        {
-            "code": "2887",
-            "name": "台新新光金",
-            "market": "上市",
-            "industry": "金融保險業",
-            "close": 36.85,
-            "high": 33.55,
-            "change_percent": 10.83,
-            "osc": 1.668
-        },
-        {
-            "code": "4439",
-            "name": "冠星-KY",
-            "market": "上市",
-            "industry": "紡織纖維",
-            "close": 101.0,
-            "high": 92.7,
-            "change_percent": 10.75,
-            "osc": 0.781
-        },
-        {
-            "code": "6712",
-            "name": "長聖",
-            "market": "上櫃",
-            "industry": "生技醫療業",
-            "close": 175.5,
-            "high": 165.0,
-            "change_percent": 10.73,
-            "osc": 1.157
-        },
-        {
-            "code": "6901",
-            "name": "鑽石投資",
-            "market": "上市",
-            "industry": "其他業",
-            "close": 20.75,
-            "high": 20.6,
-            "change_percent": 10.37,
-            "osc": 1.507
-        },
-        {
-            "code": "2630",
-            "name": "亞航",
-            "market": "上市",
-            "industry": "航運業",
-            "close": 53.9,
-            "high": 48.85,
-            "change_percent": 10.34,
-            "osc": -0.309
-        },
-        {
-            "code": "1708",
-            "name": "東鹼",
-            "market": "上市",
-            "industry": "化學工業",
-            "close": 58.8,
-            "high": 55.9,
-            "change_percent": 10.32,
-            "osc": 2.571
-        },
-        {
-            "code": "2395",
-            "name": "研華",
-            "market": "上市",
-            "industry": "電腦及週邊設備業",
-            "close": 540.0,
-            "high": 539.0,
-            "change_percent": 9.76,
-            "osc": 23.145
-        },
-        {
-            "code": "5471",
-            "name": "松翰",
-            "market": "上市",
-            "industry": "半導體業",
-            "close": 67.6,
-            "high": 66.8,
-            "change_percent": 9.74,
-            "osc": 4.021
-        },
-        {
-            "code": "8016",
-            "name": "矽創",
-            "market": "上市",
-            "industry": "半導體業",
-            "close": 363.0,
-            "high": 344.0,
-            "change_percent": 9.34,
-            "osc": 18.485
-        },
-        {
-            "code": "1303",
-            "name": "南亞",
-            "market": "上市",
-            "industry": "塑膠工業",
-            "close": 181.5,
-            "high": 169.5,
-            "change_percent": 9.01,
-            "osc": 14.57
-        },
-        {
-            "code": "6491",
-            "name": "晶碩",
-            "market": "上市",
-            "industry": "生技醫療業",
-            "close": 375.0,
-            "high": 345.0,
-            "change_percent": 8.7,
-            "osc": 7.064
-        },
-        {
-            "code": "4771",
-            "name": "望隼",
-            "market": "上市",
-            "industry": "生技醫療業",
-            "close": 213.0,
-            "high": 208.0,
-            "change_percent": 8.67,
-            "osc": 2.911
-        },
-        {
-            "code": "8091",
-            "name": "翔名",
-            "market": "上櫃",
-            "industry": "半導體業",
-            "close": 295.0,
-            "high": 291.0,
-            "change_percent": 8.66,
-            "osc": 18.574
-        },
-        {
-            "code": "6023",
-            "name": "元大期",
-            "market": "上櫃",
-            "industry": "金融保險業",
-            "close": 108.0,
-            "high": 102.5,
-            "change_percent": 8.65,
-            "osc": 0.614
-        },
-        {
-            "code": "6122",
-            "name": "擎邦",
-            "market": "上櫃",
-            "industry": "電機機械",
-            "close": 51.8,
-            "high": 49.2,
-            "change_percent": 8.6,
-            "osc": -0.575
-        },
-        {
-            "code": "8421",
-            "name": "旭源",
-            "market": "上櫃",
-            "industry": "其他業",
-            "close": 14.05,
-            "high": 13.6,
-            "change_percent": 8.49,
-            "osc": 0.057
-        },
-        {
-            "code": "6753",
-            "name": "龍德造船",
-            "market": "上市",
-            "industry": "航運業",
-            "close": 148.0,
-            "high": 139.5,
-            "change_percent": 8.42,
-            "osc": -0.059
-        },
-        {
-            "code": "5258",
-            "name": "虹堡",
-            "market": "上市",
-            "industry": "電腦及週邊設備業",
-            "close": 52.8,
-            "high": 52.7,
-            "change_percent": 8.09,
-            "osc": -1.861
-        },
-        {
-            "code": "5904",
-            "name": "寶雅",
-            "market": "上櫃",
-            "industry": "居家生活",
-            "close": 720.0,
-            "high": 688.0,
-            "change_percent": 7.95,
-            "osc": 26.436
-        },
-        {
-            "code": "8096",
-            "name": "擎亞",
-            "market": "上櫃",
-            "industry": "電子通路業",
-            "close": 166.5,
-            "high": 162.0,
-            "change_percent": 7.77,
-            "osc": 10.917
-        },
-        {
-            "code": "6703",
-            "name": "軒郁",
-            "market": "上櫃",
-            "industry": "生技醫療業",
-            "close": 117.5,
-            "high": 113.0,
-            "change_percent": 7.31,
-            "osc": 1.101
-        },
-        {
-            "code": "2248",
-            "name": "華勝-KY",
-            "market": "上市",
-            "industry": "汽車工業",
-            "close": 59.0,
-            "high": 58.0,
-            "change_percent": 7.27,
-            "osc": 0.202
-        },
-        {
-            "code": "5371",
-            "name": "中光電",
-            "market": "上櫃",
-            "industry": "光電業",
-            "close": 93.2,
-            "high": 86.9,
-            "change_percent": 7.25,
-            "osc": -0.538
-        },
-        {
-            "code": "4401",
-            "name": "東隆興",
-            "market": "上櫃",
-            "industry": "紡織纖維",
-            "close": 14.9,
-            "high": 14.4,
-            "change_percent": 7.19,
-            "osc": 0.036
-        },
-        {
-            "code": "4102",
-            "name": "永日",
-            "market": "上櫃",
-            "industry": "生技醫療業",
-            "close": 20.5,
-            "high": 19.2,
-            "change_percent": 7.05,
-            "osc": -0.106
-        },
-        {
-            "code": "3558",
-            "name": "神準",
-            "market": "上櫃",
-            "industry": "通信網路業",
-            "close": 145.0,
-            "high": 144.0,
-            "change_percent": 7.01,
-            "osc": -0.193
-        },
-        {
-            "code": "2611",
-            "name": "志信",
-            "market": "上市",
-            "industry": "航運業",
-            "close": 14.6,
-            "high": 14.3,
-            "change_percent": 6.96,
-            "osc": -0.377
-        },
-        {
-            "code": "4147",
-            "name": "中裕",
-            "market": "上櫃",
-            "industry": "生技醫療業",
-            "close": 69.5,
-            "high": 66.7,
-            "change_percent": 6.92,
-            "osc": -0.541
-        },
-        {
-            "code": "4128",
-            "name": "中天",
-            "market": "上櫃",
-            "industry": "生技醫療業",
-            "close": 17.15,
-            "high": 16.85,
-            "change_percent": 6.85,
-            "osc": 0.093
-        },
-        {
-            "code": "1435",
-            "name": "中福",
-            "market": "上市",
-            "industry": "其他業",
-            "close": 29.2,
-            "high": 27.35,
-            "change_percent": 6.76,
-            "osc": 0.019
-        },
-        {
-            "code": "6505",
-            "name": "台塑化",
-            "market": "上市",
-            "industry": "油電燃氣業",
-            "close": 58.8,
-            "high": 58.1,
-            "change_percent": 6.72,
-            "osc": 2.925
-        },
-        {
-            "code": "8383",
-            "name": "千附",
-            "market": "上櫃",
-            "industry": "半導體業",
-            "close": 69.7,
-            "high": 66.7,
-            "change_percent": 6.57,
-            "osc": 2.854
-        },
-        {
-            "code": "2515",
-            "name": "中工",
-            "market": "上市",
-            "industry": "建材營造業",
-            "close": 13.9,
-            "high": 13.7,
-            "change_percent": 6.51,
-            "osc": 0.06
-        },
-        {
-            "code": "1314",
-            "name": "中石化",
-            "market": "上市",
-            "industry": "塑膠工業",
-            "close": 8.9,
-            "high": 8.43,
-            "change_percent": 6.46,
-            "osc": 0.197
-        },
-        {
-            "code": "2889",
-            "name": "國票金",
-            "market": "上市",
-            "industry": "金融保險業",
-            "close": 15.8,
-            "high": 15.4,
-            "change_percent": 6.4,
-            "osc": -0.079
-        },
-        {
-            "code": "1452",
-            "name": "宏益",
-            "market": "上市",
-            "industry": "紡織纖維",
-            "close": 11.65,
-            "high": 11.25,
-            "change_percent": 6.39,
-            "osc": 0.058
-        },
-        {
-            "code": "4114",
-            "name": "健喬",
-            "market": "上櫃",
-            "industry": "生技醫療業",
-            "close": 33.35,
-            "high": 31.45,
-            "change_percent": 6.38,
-            "osc": -0.259
-        },
-        {
-            "code": "6446",
-            "name": "藥華藥",
-            "market": "上市",
-            "industry": "生技醫療業",
-            "close": 1285.0,
-            "high": 1244.05,
-            "change_percent": 6.37,
-            "osc": 77.028
-        },
-        {
-            "code": "4535",
-            "name": "至興",
-            "market": "上櫃",
-            "industry": "電機機械",
-            "close": 28.75,
-            "high": 28.0,
-            "change_percent": 6.28,
-            "osc": -0.009
-        },
-        {
-            "code": "6782",
-            "name": "視陽",
-            "market": "上市",
-            "industry": "生技醫療業",
-            "close": 208.0,
-            "high": 202.0,
-            "change_percent": 6.12,
-            "osc": 3.711
-        },
-        {
-            "code": "1777",
-            "name": "生泰",
-            "market": "上櫃",
-            "industry": "生技醫療業",
-            "close": 75.3,
-            "high": 72.6,
-            "change_percent": 5.76,
-            "osc": -0.827
-        },
-        {
-            "code": "4162",
-            "name": "智擎",
-            "market": "上櫃",
-            "industry": "生技醫療業",
-            "close": 64.5,
-            "high": 62.1,
-            "change_percent": 5.74,
-            "osc": -0.968
-        },
-        {
-            "code": "3489",
-            "name": "森寶",
-            "market": "上櫃",
-            "industry": "建材營造業",
-            "close": 24.2,
-            "high": 23.2,
-            "change_percent": 5.68,
-            "osc": -0.088
-        },
-        {
-            "code": "1718",
-            "name": "中纖",
-            "market": "上市",
-            "industry": "化學工業",
-            "close": 14.2,
-            "high": 13.45,
-            "change_percent": 5.58,
-            "osc": 0.772
-        },
-        {
-            "code": "1414",
-            "name": "東和",
-            "market": "上市",
-            "industry": "紡織纖維",
-            "close": 19.4,
-            "high": 18.5,
-            "change_percent": 5.43,
-            "osc": -0.33
-        },
-        {
-            "code": "6024",
-            "name": "群益期",
-            "market": "上市",
-            "industry": "金融保險業",
-            "close": 64.5,
-            "high": 63.1,
-            "change_percent": 5.39,
-            "osc": 1.132
-        },
-        {
-            "code": "2102",
-            "name": "泰豐",
-            "market": "上市",
-            "industry": "橡膠工業",
-            "close": 19.05,
-            "high": 18.85,
-            "change_percent": 5.25,
-            "osc": -0.119
-        },
         {
             "code": "1216",
             "name": "統一",
             "market": "上市",
             "industry": "食品工業",
             "close": 78.4,
-            "high": 77.7,
-            "change_percent": 5.23,
-            "osc": -0.414
+            "high": 77.2,
+            "change_percent": 2.75,
+            "osc": 0.794
         },
         {
-            "code": "2838",
-            "name": "聯邦銀",
-            "market": "上市",
-            "industry": "金融保險業",
-            "close": 23.8,
-            "high": 23.0,
-            "change_percent": 5.08,
-            "osc": 0.417
-        },
-        {
-            "code": "2206",
-            "name": "三陽工業",
-            "market": "上市",
-            "industry": "汽車工業",
-            "close": 64.2,
-            "high": 63.5,
-            "change_percent": 5.07,
-            "osc": -0.517
-        },
-        {
-            "code": "8466",
-            "name": "美吉吉-KY",
-            "market": "上市",
-            "industry": "其他業",
-            "close": 17.45,
-            "high": 16.95,
-            "change_percent": 4.8,
-            "osc": -0.39
-        },
-        {
-            "code": "2527",
-            "name": "宏璟",
-            "market": "上市",
-            "industry": "建材營造業",
-            "close": 42.6,
-            "high": 41.5,
-            "change_percent": 4.67,
-            "osc": 1.382
-        },
-        {
-            "code": "2511",
-            "name": "太子",
-            "market": "上市",
-            "industry": "建材營造業",
-            "close": 8.49,
-            "high": 8.3,
-            "change_percent": 4.43,
-            "osc": 0.002
-        },
-        {
-            "code": "1434",
-            "name": "福懋",
-            "market": "上市",
-            "industry": "紡織纖維",
-            "close": 17.7,
-            "high": 17.6,
-            "change_percent": 4.42,
-            "osc": 0.465
-        },
-        {
-            "code": "4160",
-            "name": "訊聯基因",
-            "market": "上櫃",
-            "industry": "生技醫療業",
-            "close": 41.65,
-            "high": 41.5,
-            "change_percent": 4.13,
-            "osc": -2.528
-        },
-        {
-            "code": "6199",
-            "name": "天品",
-            "market": "上櫃",
-            "industry": "其他業",
-            "close": 105.5,
-            "high": 105.0,
-            "change_percent": 3.94,
-            "osc": -3.098
-        },
-        {
-            "code": "6213",
-            "name": "聯茂",
-            "market": "上市",
-            "industry": "電子零組件業",
-            "close": 385.0,
-            "high": 376.0,
-            "change_percent": 3.91,
-            "osc": 30.51
-        },
-        {
-            "code": "4743",
-            "name": "合一",
-            "market": "上櫃",
-            "industry": "生技醫療業",
-            "close": 54.2,
-            "high": 53.7,
-            "change_percent": 3.83,
-            "osc": 2.632
-        },
-        {
-            "code": "1806",
-            "name": "冠軍",
-            "market": "上市",
-            "industry": "玻璃陶瓷",
-            "close": 8.41,
-            "high": 8.38,
-            "change_percent": 3.7,
-            "osc": -0.142
-        },
-        {
-            "code": "1417",
-            "name": "嘉裕",
-            "market": "上市",
-            "industry": "紡織纖維",
-            "close": 8.84,
-            "high": 8.72,
-            "change_percent": 3.63,
-            "osc": 0.154
-        },
-        {
-            "code": "1702",
-            "name": "南僑",
+            "code": "1256",
+            "name": "鮮活果汁-KY",
             "market": "上市",
             "industry": "食品工業",
-            "close": 32.6,
-            "high": 31.85,
-            "change_percent": 3.49,
-            "osc": -0.818
+            "close": 197.5,
+            "high": 196.0,
+            "change_percent": 2.33,
+            "osc": 1.798
         },
         {
-            "code": "1463",
-            "name": "強盛新",
-            "market": "上市",
-            "industry": "紡織纖維",
-            "close": 18.0,
-            "high": 17.95,
-            "change_percent": 3.45,
-            "osc": -0.471
-        },
-        {
-            "code": "4503",
-            "name": "金雨",
+            "code": "1259",
+            "name": "安心",
             "market": "上櫃",
-            "industry": "電機機械",
-            "close": 43.1,
-            "high": 42.25,
-            "change_percent": 3.36,
-            "osc": -0.88
-        },
-        {
-            "code": "4560",
-            "name": "強信-KY",
-            "market": "上市",
-            "industry": "電機機械",
-            "close": 34.3,
-            "high": 33.45,
-            "change_percent": 3.31,
-            "osc": 0.212
-        },
-        {
-            "code": "2428",
-            "name": "興勤",
-            "market": "上市",
-            "industry": "電子零組件業",
-            "close": 325.0,
-            "high": 322.0,
-            "change_percent": 3.17,
-            "osc": 17.616
-        },
-        {
-            "code": "2204",
-            "name": "中華",
-            "market": "上市",
-            "industry": "汽車工業",
-            "close": 57.0,
-            "high": 56.8,
-            "change_percent": 2.89,
-            "osc": -0.142
-        },
-        {
-            "code": "6576",
-            "name": "逸達",
-            "market": "上櫃",
-            "industry": "生技醫療業",
-            "close": 83.1,
-            "high": 82.4,
-            "change_percent": 2.85,
-            "osc": 1.077
-        },
-        {
-            "code": "2812",
-            "name": "台中銀",
-            "market": "上市",
-            "industry": "金融保險業",
-            "close": 20.6,
-            "high": 20.15,
-            "change_percent": 2.74,
-            "osc": -0.341
-        },
-        {
-            "code": "1210",
-            "name": "大成",
-            "market": "上市",
-            "industry": "食品工業",
-            "close": 57.0,
-            "high": 56.0,
-            "change_percent": 2.7,
-            "osc": 0.011
-        },
-        {
-            "code": "4536",
-            "name": "拓凱",
-            "market": "上市",
-            "industry": "運動休閒",
-            "close": 171.5,
-            "high": 168.0,
-            "change_percent": 2.69,
-            "osc": -1.943
-        },
-        {
-            "code": "2892",
-            "name": "第一金",
-            "market": "上市",
-            "industry": "金融保險業",
-            "close": 33.6,
-            "high": 33.25,
-            "change_percent": 2.6,
-            "osc": 0.348
-        },
-        {
-            "code": "8046",
-            "name": "南電",
-            "market": "上市",
-            "industry": "電子零組件業",
-            "close": 1215.0,
-            "high": 1185.0,
-            "change_percent": 2.53,
-            "osc": 110.549
-        },
-        {
-            "code": "2634",
-            "name": "漢翔",
-            "market": "上市",
-            "industry": "航運業",
-            "close": 58.0,
+            "industry": "觀光餐旅",
+            "close": 58.9,
             "high": 57.2,
-            "change_percent": 2.47,
-            "osc": 0.352
+            "change_percent": 3.88,
+            "osc": -0.08
         },
         {
-            "code": "4167",
-            "name": "松瑞藥",
-            "market": "上櫃",
-            "industry": "生技醫療業",
-            "close": 20.95,
-            "high": 20.9,
-            "change_percent": 2.44,
-            "osc": 0.228
+            "code": "1418",
+            "name": "東華",
+            "market": "上市",
+            "industry": "紡織纖維",
+            "close": 19.2,
+            "high": 18.45,
+            "change_percent": 4.07,
+            "osc": 0.117
         },
         {
-            "code": "4105",
-            "name": "東洋",
-            "market": "上櫃",
-            "industry": "生技醫療業",
-            "close": 77.3,
-            "high": 76.8,
-            "change_percent": 2.11,
-            "osc": -0.403
+            "code": "1419",
+            "name": "新紡",
+            "market": "上市",
+            "industry": "紡織纖維",
+            "close": 66.7,
+            "high": 66.2,
+            "change_percent": 0.76,
+            "osc": 0.098
+        },
+        {
+            "code": "1476",
+            "name": "儒鴻",
+            "market": "上市",
+            "industry": "紡織纖維",
+            "close": 335.0,
+            "high": 326.0,
+            "change_percent": 3.55,
+            "osc": 0.592
+        },
+        {
+            "code": "1506",
+            "name": "正道",
+            "market": "上市",
+            "industry": "電機機械",
+            "close": 10.55,
+            "high": 10.5,
+            "change_percent": 0.48,
+            "osc": 0.009
+        },
+        {
+            "code": "1536",
+            "name": "和大",
+            "market": "上市",
+            "industry": "汽車工業",
+            "close": 55.0,
+            "high": 53.5,
+            "change_percent": 5.36,
+            "osc": 0.458
         },
         {
             "code": "1558",
@@ -1400,138 +90,788 @@
             "industry": "電機機械",
             "close": 92.4,
             "high": 91.9,
-            "change_percent": 2.1,
-            "osc": -0.076
+            "change_percent": 0.54,
+            "osc": 0.18
         },
         {
-            "code": "4506",
-            "name": "崇友",
+            "code": "1733",
+            "name": "五鼎",
+            "market": "上市",
+            "industry": "生技醫療業",
+            "close": 30.3,
+            "high": 30.0,
+            "change_percent": 1.51,
+            "osc": 0.145
+        },
+        {
+            "code": "1777",
+            "name": "生泰",
             "market": "上櫃",
-            "industry": "電機機械",
-            "close": 123.0,
-            "high": 121.0,
-            "change_percent": 2.07,
-            "osc": -0.978
+            "industry": "生技醫療業",
+            "close": 75.3,
+            "high": 72.8,
+            "change_percent": 3.58,
+            "osc": 0.568
         },
         {
-            "code": "8222",
-            "name": "寶一",
+            "code": "1783",
+            "name": "和康生",
             "market": "上市",
-            "industry": "電機機械",
-            "close": 40.0,
-            "high": 39.2,
-            "change_percent": 2.04,
-            "osc": -1.191
+            "industry": "生技醫療業",
+            "close": 40.35,
+            "high": 40.0,
+            "change_percent": 1.13,
+            "osc": 0.02
         },
         {
-            "code": "1437",
-            "name": "勤益控",
+            "code": "1786",
+            "name": "科妍",
             "market": "上市",
-            "industry": "其他業",
-            "close": 30.8,
-            "high": 30.3,
-            "change_percent": 1.99,
-            "osc": -0.418
+            "industry": "生技醫療業",
+            "close": 56.0,
+            "high": 55.7,
+            "change_percent": 3.13,
+            "osc": 0.603
         },
         {
-            "code": "9925",
-            "name": "新保",
+            "code": "1795",
+            "name": "美時",
             "market": "上市",
-            "industry": "其他業",
-            "close": 41.3,
-            "high": 40.9,
-            "change_percent": 1.85,
-            "osc": -0.035
+            "industry": "生技醫療業",
+            "close": 204.0,
+            "high": 202.0,
+            "change_percent": 2.26,
+            "osc": -1.091
         },
         {
-            "code": "1315",
-            "name": "達新",
-            "market": "上市",
-            "industry": "塑膠工業",
-            "close": 63.6,
-            "high": 63.5,
-            "change_percent": 1.76,
-            "osc": 0.008
+            "code": "1796",
+            "name": "金穎生技",
+            "market": "上櫃",
+            "industry": "食品工業",
+            "close": 34.4,
+            "high": 32.4,
+            "change_percent": 6.34,
+            "osc": -0.147
         },
         {
-            "code": "2109",
-            "name": "華豐",
+            "code": "1810",
+            "name": "和成",
             "market": "上市",
-            "industry": "橡膠工業",
-            "close": 14.8,
-            "high": 14.75,
+            "industry": "玻璃陶瓷",
+            "close": 23.85,
+            "high": 23.25,
+            "change_percent": 2.58,
+            "osc": 0.499
+        },
+        {
+            "code": "1904",
+            "name": "正隆",
+            "market": "上市",
+            "industry": "造紙工業",
+            "close": 23.4,
+            "high": 23.3,
+            "change_percent": 0.86,
+            "osc": 0.461
+        },
+        {
+            "code": "2023",
+            "name": "燁輝",
+            "market": "上市",
+            "industry": "鋼鐵工業",
+            "close": 13.9,
+            "high": 13.75,
+            "change_percent": 1.83,
+            "osc": -0.001
+        },
+        {
+            "code": "2059",
+            "name": "川湖",
+            "market": "上市",
+            "industry": "電子零組件業",
+            "close": 8250.0,
+            "high": 8150.0,
+            "change_percent": 3.12,
+            "osc": 390.215
+        },
+        {
+            "code": "2061",
+            "name": "風青",
+            "market": "上櫃",
+            "industry": "電器電纜",
+            "close": 74.7,
+            "high": 74.2,
+            "change_percent": 0.67,
+            "osc": 5.886
+        },
+        {
+            "code": "2206",
+            "name": "三陽工業",
+            "market": "上市",
+            "industry": "汽車工業",
+            "close": 64.2,
+            "high": 64.0,
+            "change_percent": 0.31,
+            "osc": 0.725
+        },
+        {
+            "code": "2248",
+            "name": "華勝-KY",
+            "market": "上市",
+            "industry": "汽車工業",
+            "close": 59.0,
+            "high": 57.6,
+            "change_percent": 2.97,
+            "osc": 0.303
+        },
+        {
+            "code": "2332",
+            "name": "友訊",
+            "market": "上市",
+            "industry": "通信網路業",
+            "close": 24.05,
+            "high": 20.0,
+            "change_percent": 20.25,
+            "osc": 0.884
+        },
+        {
+            "code": "2369",
+            "name": "菱生",
+            "market": "上市",
+            "industry": "半導體業",
+            "close": 42.5,
+            "high": 41.15,
+            "change_percent": 8.14,
+            "osc": 0.725
+        },
+        {
+            "code": "2393",
+            "name": "億光",
+            "market": "上市",
+            "industry": "光電業",
+            "close": 71.0,
+            "high": 70.1,
+            "change_percent": 3.35,
+            "osc": 0.149
+        },
+        {
+            "code": "2395",
+            "name": "研華",
+            "market": "上市",
+            "industry": "電腦及週邊設備業",
+            "close": 540.0,
+            "high": 522.0,
+            "change_percent": 3.65,
+            "osc": 10.59
+        },
+        {
+            "code": "2434",
+            "name": "統懋",
+            "market": "上市",
+            "industry": "半導體業",
+            "close": 62.1,
+            "high": 57.7,
+            "change_percent": 7.63,
+            "osc": 3.11
+        },
+        {
+            "code": "2465",
+            "name": "麗臺",
+            "market": "上市",
+            "industry": "電腦及週邊設備業",
+            "close": 89.5,
+            "high": 73.9,
+            "change_percent": 21.93,
+            "osc": 1.06
+        },
+        {
+            "code": "2466",
+            "name": "冠西電",
+            "market": "上市",
+            "industry": "光電業",
+            "close": 98.5,
+            "high": 86.2,
+            "change_percent": 14.27,
+            "osc": 4.948
+        },
+        {
+            "code": "2482",
+            "name": "連宇",
+            "market": "上市",
+            "industry": "其他電子業",
+            "close": 17.65,
+            "high": 17.2,
+            "change_percent": 3.82,
+            "osc": 0.142
+        },
+        {
+            "code": "2483",
+            "name": "百容",
+            "market": "上市",
+            "industry": "電子零組件業",
+            "close": 68.0,
+            "high": 67.1,
+            "change_percent": 1.34,
+            "osc": 4.818
+        },
+        {
+            "code": "2511",
+            "name": "太子",
+            "market": "上市",
+            "industry": "建材營造業",
+            "close": 8.49,
+            "high": 8.44,
+            "change_percent": 1.07,
+            "osc": 0.093
+        },
+        {
+            "code": "2527",
+            "name": "宏璟",
+            "market": "上市",
+            "industry": "建材營造業",
+            "close": 42.6,
+            "high": 41.4,
+            "change_percent": 3.4,
+            "osc": 0.782
+        },
+        {
+            "code": "2601",
+            "name": "益航",
+            "market": "上市",
+            "industry": "貿易百貨業",
+            "close": 7.98,
+            "high": 6.0,
+            "change_percent": 33.0,
+            "osc": 0.202
+        },
+        {
+            "code": "2608",
+            "name": "嘉里大榮",
+            "market": "上市",
+            "industry": "航運業",
+            "close": 29.45,
+            "high": 29.2,
+            "change_percent": 0.86,
+            "osc": 0.042
+        },
+        {
+            "code": "2611",
+            "name": "志信",
+            "market": "上市",
+            "industry": "航運業",
+            "close": 14.6,
+            "high": 14.3,
+            "change_percent": 2.1,
+            "osc": 0.171
+        },
+        {
+            "code": "2637",
+            "name": "慧洋-KY",
+            "market": "上市",
+            "industry": "航運業",
+            "close": 83.0,
+            "high": 74.4,
+            "change_percent": 11.71,
+            "osc": 0.359
+        },
+        {
+            "code": "2645",
+            "name": "長榮航太",
+            "market": "上市",
+            "industry": "航運業",
+            "close": 240.0,
+            "high": 216.5,
+            "change_percent": 10.85,
+            "osc": 6.844
+        },
+        {
+            "code": "2704",
+            "name": "國賓",
+            "market": "上市",
+            "industry": "觀光餐旅",
+            "close": 45.4,
+            "high": 44.95,
+            "change_percent": 1.11,
+            "osc": 0.416
+        },
+        {
+            "code": "2740",
+            "name": "天蔥",
+            "market": "上櫃",
+            "industry": "觀光餐旅",
+            "close": 34.1,
+            "high": 32.6,
+            "change_percent": 13.86,
+            "osc": -1.055
+        },
+        {
+            "code": "2838",
+            "name": "聯邦銀",
+            "market": "上市",
+            "industry": "金融保險業",
+            "close": 23.8,
+            "high": 23.15,
+            "change_percent": 3.93,
+            "osc": 0.252
+        },
+        {
+            "code": "2867",
+            "name": "三商壽",
+            "market": "上市",
+            "industry": "金融保險業",
+            "close": 8.86,
+            "high": 8.73,
+            "change_percent": 3.5,
+            "osc": 0.061
+        },
+        {
+            "code": "2880",
+            "name": "華南金",
+            "market": "上市",
+            "industry": "金融保險業",
+            "close": 38.85,
+            "high": 38.4,
+            "change_percent": 3.19,
+            "osc": 0.403
+        },
+        {
+            "code": "2887",
+            "name": "台新新光金",
+            "market": "上市",
+            "industry": "金融保險業",
+            "close": 36.85,
+            "high": 34.9,
+            "change_percent": 7.91,
+            "osc": 1.067
+        },
+        {
+            "code": "2889",
+            "name": "國票金",
+            "market": "上市",
+            "industry": "金融保險業",
+            "close": 15.8,
+            "high": 15.0,
+            "change_percent": 5.33,
+            "osc": 0.045
+        },
+        {
+            "code": "2892",
+            "name": "第一金",
+            "market": "上市",
+            "industry": "金融保險業",
+            "close": 33.6,
+            "high": 33.35,
+            "change_percent": 3.7,
+            "osc": 0.513
+        },
+        {
+            "code": "2905",
+            "name": "三商",
+            "market": "上市",
+            "industry": "貿易百貨業",
+            "close": 15.4,
+            "high": 15.1,
+            "change_percent": 2.33,
+            "osc": 0.124
+        },
+        {
+            "code": "2908",
+            "name": "特力",
+            "market": "上市",
+            "industry": "貿易百貨業",
+            "close": 21.85,
+            "high": 21.6,
+            "change_percent": 1.86,
+            "osc": 0.093
+        },
+        {
+            "code": "2912",
+            "name": "統一超",
+            "market": "上市",
+            "industry": "貿易百貨業",
+            "close": 241.0,
+            "high": 237.5,
+            "change_percent": 4.33,
+            "osc": 1.93
+        },
+        {
+            "code": "2913",
+            "name": "農林",
+            "market": "上市",
+            "industry": "貿易百貨業",
+            "close": 11.75,
+            "high": 11.45,
+            "change_percent": 4.44,
+            "osc": 0.104
+        },
+        {
+            "code": "2949",
+            "name": "欣新網",
+            "market": "上櫃",
+            "industry": "數位雲端",
+            "close": 83.8,
+            "high": 70.9,
+            "change_percent": 18.19,
+            "osc": 2.448
+        },
+        {
+            "code": "3004",
+            "name": "豐達科",
+            "market": "上市",
+            "industry": "鋼鐵工業",
+            "close": 153.5,
+            "high": 150.0,
+            "change_percent": 2.33,
+            "osc": 3.73
+        },
+        {
+            "code": "3005",
+            "name": "神基",
+            "market": "上市",
+            "industry": "電腦及週邊設備業",
+            "close": 112.0,
+            "high": 111.0,
+            "change_percent": 4.67,
+            "osc": 1.379
+        },
+        {
+            "code": "3006",
+            "name": "晶豪科",
+            "market": "上市",
+            "industry": "半導體業",
+            "close": 237.0,
+            "high": 231.5,
+            "change_percent": 12.06,
+            "osc": -0.227
+        },
+        {
+            "code": "3018",
+            "name": "隆銘綠能",
+            "market": "上市",
+            "industry": "其他電子業",
+            "close": 12.05,
+            "high": 12.0,
+            "change_percent": 0.84,
+            "osc": 0.295
+        },
+        {
+            "code": "3022",
+            "name": "威強電",
+            "market": "上市",
+            "industry": "電腦及週邊設備業",
+            "close": 89.0,
+            "high": 88.1,
+            "change_percent": 2.18,
+            "osc": 2.236
+        },
+        {
+            "code": "3026",
+            "name": "禾伸堂",
+            "market": "上市",
+            "industry": "電子零組件業",
+            "close": 1005.0,
+            "high": 988.0,
             "change_percent": 1.72,
-            "osc": -0.209
+            "osc": 69.281
         },
         {
-            "code": "1468",
-            "name": "昶和",
+            "code": "3046",
+            "name": "建碁",
             "market": "上市",
-            "industry": "紡織纖維",
-            "close": 12.2,
-            "high": 12.15,
-            "change_percent": 1.67,
-            "osc": -0.094
+            "industry": "電腦及週邊設備業",
+            "close": 55.6,
+            "high": 52.7,
+            "change_percent": 5.5,
+            "osc": 0.264
         },
         {
-            "code": "4746",
-            "name": "台耀",
+            "code": "3047",
+            "name": "訊舟",
+            "market": "上市",
+            "industry": "通信網路業",
+            "close": 16.65,
+            "high": 16.4,
+            "change_percent": 3.42,
+            "osc": 0.261
+        },
+        {
+            "code": "3055",
+            "name": "蔚華科",
+            "market": "上市",
+            "industry": "電子通路業",
+            "close": 158.0,
+            "high": 154.0,
+            "change_percent": 3.61,
+            "osc": 6.722
+        },
+        {
+            "code": "3066",
+            "name": "李洲",
+            "market": "上櫃",
+            "industry": "光電業",
+            "close": 27.2,
+            "high": 26.5,
+            "change_percent": 2.64,
+            "osc": 0.642
+        },
+        {
+            "code": "3115",
+            "name": "富榮綱",
+            "market": "上櫃",
+            "industry": "電子零組件業",
+            "close": 9.11,
+            "high": 9.0,
+            "change_percent": 6.18,
+            "osc": 0.031
+        },
+        {
+            "code": "3164",
+            "name": "景岳",
             "market": "上市",
             "industry": "生技醫療業",
-            "close": 54.8,
-            "high": 54.0,
-            "change_percent": 1.67,
-            "osc": -0.787
+            "close": 16.45,
+            "high": 16.3,
+            "change_percent": 0.92,
+            "osc": -0.067
         },
         {
-            "code": "8411",
-            "name": "福貞-KY",
-            "market": "上市",
-            "industry": "其他業",
-            "close": 12.4,
-            "high": 12.3,
-            "change_percent": 1.64,
-            "osc": 0.013
-        },
-        {
-            "code": "4119",
-            "name": "旭富",
-            "market": "上市",
+            "code": "3176",
+            "name": "基亞",
+            "market": "上櫃",
             "industry": "生技醫療業",
-            "close": 45.5,
-            "high": 45.4,
-            "change_percent": 1.56,
-            "osc": -1.005
+            "close": 38.2,
+            "high": 35.5,
+            "change_percent": 8.06,
+            "osc": 0.375
         },
         {
-            "code": "6512",
-            "name": "啟發電",
+            "code": "3211",
+            "name": "順達",
+            "market": "上櫃",
+            "industry": "電腦及週邊設備業",
+            "close": 454.0,
+            "high": 423.0,
+            "change_percent": 13.22,
+            "osc": 3.555
+        },
+        {
+            "code": "3219",
+            "name": "倚強科",
             "market": "上櫃",
             "industry": "其他電子業",
-            "close": 20.25,
-            "high": 20.0,
-            "change_percent": 1.5,
-            "osc": -0.155
+            "close": 78.3,
+            "high": 75.8,
+            "change_percent": 4.68,
+            "osc": -0.055
         },
         {
-            "code": "1734",
-            "name": "杏輝",
+            "code": "3310",
+            "name": "佳穎",
+            "market": "上櫃",
+            "industry": "電子零組件業",
+            "close": 69.1,
+            "high": 67.5,
+            "change_percent": 2.37,
+            "osc": -0.486
+        },
+        {
+            "code": "3323",
+            "name": "加百裕",
+            "market": "上櫃",
+            "industry": "電腦及週邊設備業",
+            "close": 34.9,
+            "high": 34.35,
+            "change_percent": 2.05,
+            "osc": 0.097
+        },
+        {
+            "code": "3332",
+            "name": "幸康",
+            "market": "上櫃",
+            "industry": "電子零組件業",
+            "close": 66.3,
+            "high": 64.8,
+            "change_percent": 2.95,
+            "osc": 0.037
+        },
+        {
+            "code": "3349",
+            "name": "寶德",
+            "market": "上櫃",
+            "industry": "電腦及週邊設備業",
+            "close": 23.9,
+            "high": 22.0,
+            "change_percent": 8.64,
+            "osc": -0.263
+        },
+        {
+            "code": "3374",
+            "name": "精材",
+            "market": "上櫃",
+            "industry": "半導體業",
+            "close": 356.5,
+            "high": 321.5,
+            "change_percent": 13.9,
+            "osc": 11.643
+        },
+        {
+            "code": "3492",
+            "name": "長盛",
+            "market": "上櫃",
+            "industry": "電子零組件業",
+            "close": 23.2,
+            "high": 23.15,
+            "change_percent": 0.87,
+            "osc": 0.01
+        },
+        {
+            "code": "3521",
+            "name": "台鋼建設",
+            "market": "上櫃",
+            "industry": "建材營造業",
+            "close": 13.6,
+            "high": 13.5,
+            "change_percent": 5.43,
+            "osc": -0.081
+        },
+        {
+            "code": "3543",
+            "name": "州巧",
+            "market": "上市",
+            "industry": "光電業",
+            "close": 33.4,
+            "high": 29.55,
+            "change_percent": 14.97,
+            "osc": -1.392
+        },
+        {
+            "code": "3558",
+            "name": "神準",
+            "market": "上櫃",
+            "industry": "通信網路業",
+            "close": 145.0,
+            "high": 136.5,
+            "change_percent": 7.81,
+            "osc": 3.586
+        },
+        {
+            "code": "3564",
+            "name": "其陽",
+            "market": "上櫃",
+            "industry": "通信網路業",
+            "close": 54.1,
+            "high": 49.85,
+            "change_percent": 8.53,
+            "osc": 1.351
+        },
+        {
+            "code": "3609",
+            "name": "三一東林",
+            "market": "上櫃",
+            "industry": "電子零組件業",
+            "close": 28.3,
+            "high": 28.1,
+            "change_percent": 2.17,
+            "osc": 0.785
+        },
+        {
+            "code": "3617",
+            "name": "碩天",
+            "market": "上市",
+            "industry": "其他電子業",
+            "close": 242.0,
+            "high": 225.5,
+            "change_percent": 10.0,
+            "osc": 6.043
+        },
+        {
+            "code": "3632",
+            "name": "研勤",
+            "market": "上櫃",
+            "industry": "通信網路業",
+            "close": 8.59,
+            "high": 8.1,
+            "change_percent": 9.57,
+            "osc": -0.005
+        },
+        {
+            "code": "3672",
+            "name": "康聯訊",
+            "market": "上櫃",
+            "industry": "通信網路業",
+            "close": 14.05,
+            "high": 13.15,
+            "change_percent": 12.85,
+            "osc": 0.348
+        },
+        {
+            "code": "3685",
+            "name": "元創精密",
+            "market": "上櫃",
+            "industry": "電機機械",
+            "close": 30.75,
+            "high": 30.0,
+            "change_percent": 10.61,
+            "osc": -0.186
+        },
+        {
+            "code": "3709",
+            "name": "鑫聯大投控",
+            "market": "上櫃",
+            "industry": "電腦及週邊設備業",
+            "close": 79.6,
+            "high": 77.2,
+            "change_percent": 6.56,
+            "osc": -1.346
+        },
+        {
+            "code": "4102",
+            "name": "永日",
+            "market": "上櫃",
+            "industry": "生技醫療業",
+            "close": 20.5,
+            "high": 19.9,
+            "change_percent": 3.02,
+            "osc": 0.36
+        },
+        {
+            "code": "4104",
+            "name": "佳醫",
             "market": "上市",
             "industry": "生技醫療業",
-            "close": 33.1,
-            "high": 32.95,
-            "change_percent": 1.38,
-            "osc": 0.127
+            "close": 69.8,
+            "high": 69.6,
+            "change_percent": 0.43,
+            "osc": -0.098
         },
         {
-            "code": "1227",
-            "name": "佳格",
-            "market": "上市",
-            "industry": "食品工業",
-            "close": 29.75,
-            "high": 29.55,
-            "change_percent": 1.36,
-            "osc": 0.161
+            "code": "4107",
+            "name": "邦特",
+            "market": "上櫃",
+            "industry": "生技醫療業",
+            "close": 117.0,
+            "high": 116.5,
+            "change_percent": 0.43,
+            "osc": -0.038
+        },
+        {
+            "code": "4114",
+            "name": "健喬",
+            "market": "上櫃",
+            "industry": "生技醫療業",
+            "close": 33.35,
+            "high": 32.0,
+            "change_percent": 4.87,
+            "osc": 0.251
+        },
+        {
+            "code": "4120",
+            "name": "友華",
+            "market": "上櫃",
+            "industry": "生技醫療業",
+            "close": 47.4,
+            "high": 46.3,
+            "change_percent": 4.06,
+            "osc": 0.102
         },
         {
             "code": "4126",
@@ -1539,9 +879,9 @@
             "market": "上櫃",
             "industry": "生技醫療業",
             "close": 81.3,
-            "high": 80.9,
-            "change_percent": 1.25,
-            "osc": -1.246
+            "high": 80.6,
+            "change_percent": 0.87,
+            "osc": 0.446
         },
         {
             "code": "4139",
@@ -1549,9 +889,279 @@
             "market": "上櫃",
             "industry": "生技醫療業",
             "close": 24.9,
-            "high": 24.85,
+            "high": 24.8,
             "change_percent": 1.22,
-            "osc": 0.357
+            "osc": 0.157
+        },
+        {
+            "code": "4160",
+            "name": "訊聯基因",
+            "market": "上櫃",
+            "industry": "生技醫療業",
+            "close": 41.65,
+            "high": 41.6,
+            "change_percent": 2.71,
+            "osc": 0.077
+        },
+        {
+            "code": "4166",
+            "name": "友霖",
+            "market": "上櫃",
+            "industry": "生技醫療業",
+            "close": 27.25,
+            "high": 26.4,
+            "change_percent": 7.28,
+            "osc": 0.231
+        },
+        {
+            "code": "4198",
+            "name": "欣大健康",
+            "market": "上櫃",
+            "industry": "生技醫療業",
+            "close": 45.4,
+            "high": 41.0,
+            "change_percent": 10.73,
+            "osc": 0.54
+        },
+        {
+            "code": "4439",
+            "name": "冠星-KY",
+            "market": "上市",
+            "industry": "紡織纖維",
+            "close": 101.0,
+            "high": 91.8,
+            "change_percent": 10.02,
+            "osc": 0.292
+        },
+        {
+            "code": "4440",
+            "name": "宜新實業",
+            "market": "上市",
+            "industry": "紡織纖維",
+            "close": 18.05,
+            "high": 17.8,
+            "change_percent": 2.85,
+            "osc": 0.005
+        },
+        {
+            "code": "4513",
+            "name": "福裕",
+            "market": "上櫃",
+            "industry": "電機機械",
+            "close": 16.85,
+            "high": 16.8,
+            "change_percent": 0.9,
+            "osc": 0.279
+        },
+        {
+            "code": "4529",
+            "name": "淳紳",
+            "market": "上櫃",
+            "industry": "其他業",
+            "close": 4.83,
+            "high": 4.45,
+            "change_percent": 14.45,
+            "osc": 0.003
+        },
+        {
+            "code": "4535",
+            "name": "至興",
+            "market": "上櫃",
+            "industry": "電機機械",
+            "close": 28.75,
+            "high": 27.55,
+            "change_percent": 7.08,
+            "osc": 0.097
+        },
+        {
+            "code": "4541",
+            "name": "晟田",
+            "market": "上櫃",
+            "industry": "其他業",
+            "close": 61.0,
+            "high": 60.7,
+            "change_percent": 0.49,
+            "osc": 1.627
+        },
+        {
+            "code": "4556",
+            "name": "旭然",
+            "market": "上櫃",
+            "industry": "其他業",
+            "close": 101.0,
+            "high": 88.6,
+            "change_percent": 14.0,
+            "osc": 6.308
+        },
+        {
+            "code": "4564",
+            "name": "元翎",
+            "market": "上市",
+            "industry": "電機機械",
+            "close": 19.3,
+            "high": 18.25,
+            "change_percent": 5.75,
+            "osc": 0.08
+        },
+        {
+            "code": "4581",
+            "name": "光隆精密-KY",
+            "market": "上市",
+            "industry": "汽車工業",
+            "close": 50.5,
+            "high": 50.2,
+            "change_percent": 0.6,
+            "osc": 0.191
+        },
+        {
+            "code": "4707",
+            "name": "磐亞",
+            "market": "上櫃",
+            "industry": "化學工業",
+            "close": 36.25,
+            "high": 33.95,
+            "change_percent": 7.25,
+            "osc": 2.198
+        },
+        {
+            "code": "4744",
+            "name": "皇將",
+            "market": "上櫃",
+            "industry": "生技醫療業",
+            "close": 28.8,
+            "high": 26.05,
+            "change_percent": 13.16,
+            "osc": -0.988
+        },
+        {
+            "code": "4764",
+            "name": "雙鍵",
+            "market": "上市",
+            "industry": "化學工業",
+            "close": 336.0,
+            "high": 308.0,
+            "change_percent": 12.0,
+            "osc": 3.131
+        },
+        {
+            "code": "4923",
+            "name": "力士",
+            "market": "上櫃",
+            "industry": "半導體業",
+            "close": 63.3,
+            "high": 62.7,
+            "change_percent": 3.6,
+            "osc": 2.681
+        },
+        {
+            "code": "5288",
+            "name": "豐祥-KY",
+            "market": "上市",
+            "industry": "電機機械",
+            "close": 190.0,
+            "high": 187.0,
+            "change_percent": 2.7,
+            "osc": 3.236
+        },
+        {
+            "code": "5344",
+            "name": "立衛",
+            "market": "上櫃",
+            "industry": "半導體業",
+            "close": 16.3,
+            "high": 16.1,
+            "change_percent": 2.19,
+            "osc": 0.016
+        },
+        {
+            "code": "5351",
+            "name": "鈺創",
+            "market": "上櫃",
+            "industry": "半導體業",
+            "close": 98.2,
+            "high": 89.5,
+            "change_percent": 20.05,
+            "osc": 0.709
+        },
+        {
+            "code": "5388",
+            "name": "中磊",
+            "market": "上市",
+            "industry": "通信網路業",
+            "close": 84.6,
+            "high": 82.0,
+            "change_percent": 3.68,
+            "osc": 0.579
+        },
+        {
+            "code": "5455",
+            "name": "昇益",
+            "market": "上櫃",
+            "industry": "建材營造業",
+            "close": 27.5,
+            "high": 27.25,
+            "change_percent": 0.92,
+            "osc": 0.6
+        },
+        {
+            "code": "5471",
+            "name": "松翰",
+            "market": "上市",
+            "industry": "半導體業",
+            "close": 67.6,
+            "high": 66.0,
+            "change_percent": 8.16,
+            "osc": 1.877
+        },
+        {
+            "code": "5488",
+            "name": "松普",
+            "market": "上櫃",
+            "industry": "電子零組件業",
+            "close": 16.2,
+            "high": 15.45,
+            "change_percent": 4.85,
+            "osc": 0.549
+        },
+        {
+            "code": "5525",
+            "name": "順天",
+            "market": "上市",
+            "industry": "建材營造業",
+            "close": 21.85,
+            "high": 21.8,
+            "change_percent": 0.23,
+            "osc": -0.017
+        },
+        {
+            "code": "5530",
+            "name": "龍巖",
+            "market": "上櫃",
+            "industry": "其他業",
+            "close": 49.7,
+            "high": 49.4,
+            "change_percent": 1.12,
+            "osc": 0.591
+        },
+        {
+            "code": "5609",
+            "name": "中菲行",
+            "market": "上櫃",
+            "industry": "航運業",
+            "close": 78.9,
+            "high": 78.4,
+            "change_percent": 0.77,
+            "osc": -0.195
+        },
+        {
+            "code": "5703",
+            "name": "亞都",
+            "market": "上櫃",
+            "industry": "觀光餐旅",
+            "close": 14.0,
+            "high": 13.8,
+            "change_percent": 1.45,
+            "osc": 0.038
         },
         {
             "code": "5880",
@@ -1559,9 +1169,369 @@
             "market": "上市",
             "industry": "金融保險業",
             "close": 25.15,
-            "high": 25.1,
-            "change_percent": 1.21,
-            "osc": 0.057
+            "high": 25.05,
+            "change_percent": 1.82,
+            "osc": 0.243
+        },
+        {
+            "code": "6023",
+            "name": "元大期",
+            "market": "上櫃",
+            "industry": "金融保險業",
+            "close": 108.0,
+            "high": 101.5,
+            "change_percent": 6.4,
+            "osc": 0.4
+        },
+        {
+            "code": "6024",
+            "name": "群益期",
+            "market": "上市",
+            "industry": "金融保險業",
+            "close": 64.5,
+            "high": 62.1,
+            "change_percent": 4.2,
+            "osc": 0.551
+        },
+        {
+            "code": "6130",
+            "name": "上亞科技",
+            "market": "上櫃",
+            "industry": "生技醫療業",
+            "close": 26.2,
+            "high": 25.2,
+            "change_percent": 8.71,
+            "osc": 0.468
+        },
+        {
+            "code": "6142",
+            "name": "友勁",
+            "market": "上市",
+            "industry": "通信網路業",
+            "close": 11.25,
+            "high": 10.2,
+            "change_percent": 12.61,
+            "osc": 0.223
+        },
+        {
+            "code": "6146",
+            "name": "耕興",
+            "market": "上櫃",
+            "industry": "其他電子業",
+            "close": 206.0,
+            "high": 197.0,
+            "change_percent": 5.64,
+            "osc": -2.968
+        },
+        {
+            "code": "6165",
+            "name": "浪凡",
+            "market": "上市",
+            "industry": "數位雲端",
+            "close": 50.1,
+            "high": 49.6,
+            "change_percent": 2.04,
+            "osc": 0.204
+        },
+        {
+            "code": "6176",
+            "name": "瑞儀",
+            "market": "上市",
+            "industry": "光電業",
+            "close": 90.6,
+            "high": 90.4,
+            "change_percent": 0.33,
+            "osc": 0.062
+        },
+        {
+            "code": "6179",
+            "name": "亞通",
+            "market": "上櫃",
+            "industry": "其他業",
+            "close": 27.95,
+            "high": 26.85,
+            "change_percent": 5.27,
+            "osc": 0.475
+        },
+        {
+            "code": "6182",
+            "name": "合晶",
+            "market": "上櫃",
+            "industry": "半導體業",
+            "close": 172.5,
+            "high": 163.0,
+            "change_percent": 5.83,
+            "osc": 12.044
+        },
+        {
+            "code": "6202",
+            "name": "盛群",
+            "market": "上市",
+            "industry": "半導體業",
+            "close": 73.3,
+            "high": 71.0,
+            "change_percent": 9.4,
+            "osc": 1.28
+        },
+        {
+            "code": "6214",
+            "name": "精誠",
+            "market": "上市",
+            "industry": "資訊服務業",
+            "close": 143.5,
+            "high": 136.0,
+            "change_percent": 7.49,
+            "osc": 1.809
+        },
+        {
+            "code": "6240",
+            "name": "松崗",
+            "market": "上櫃",
+            "industry": "資訊服務業",
+            "close": 18.5,
+            "high": 18.4,
+            "change_percent": 2.49,
+            "osc": 0.029
+        },
+        {
+            "code": "6414",
+            "name": "樺漢",
+            "market": "上市",
+            "industry": "電腦及週邊設備業",
+            "close": 394.0,
+            "high": 377.5,
+            "change_percent": 4.93,
+            "osc": 6.866
+        },
+        {
+            "code": "6416",
+            "name": "瑞祺電通",
+            "market": "上市",
+            "industry": "通信網路業",
+            "close": 98.4,
+            "high": 82.3,
+            "change_percent": 19.85,
+            "osc": 0.873
+        },
+        {
+            "code": "6423",
+            "name": "億而得",
+            "market": "上櫃",
+            "industry": "半導體業",
+            "close": 87.5,
+            "high": 85.0,
+            "change_percent": 7.1,
+            "osc": -2.201
+        },
+        {
+            "code": "6431",
+            "name": "光麗-KY",
+            "market": "上市",
+            "industry": "生技醫療業",
+            "close": 18.25,
+            "high": 18.2,
+            "change_percent": 2.24,
+            "osc": -0.44
+        },
+        {
+            "code": "6469",
+            "name": "大樹",
+            "market": "上櫃",
+            "industry": "生技醫療業",
+            "close": 78.0,
+            "high": 77.5,
+            "change_percent": 1.69,
+            "osc": 1.58
+        },
+        {
+            "code": "6474",
+            "name": "華豫寧",
+            "market": "上櫃",
+            "industry": "電子通路業",
+            "close": 38.75,
+            "high": 37.6,
+            "change_percent": 3.47,
+            "osc": 0.176
+        },
+        {
+            "code": "6477",
+            "name": "安集",
+            "market": "上市",
+            "industry": "光電業",
+            "close": 39.85,
+            "high": 36.95,
+            "change_percent": 7.99,
+            "osc": 0.419
+        },
+        {
+            "code": "6488",
+            "name": "環球晶",
+            "market": "上櫃",
+            "industry": "半導體業",
+            "close": 1350.0,
+            "high": 1255.0,
+            "change_percent": 7.57,
+            "osc": 65.094
+        },
+        {
+            "code": "6525",
+            "name": "捷敏-KY",
+            "market": "上市",
+            "industry": "半導體業",
+            "close": 199.5,
+            "high": 183.0,
+            "change_percent": 9.02,
+            "osc": 9.495
+        },
+        {
+            "code": "6573",
+            "name": "虹揚-KY",
+            "market": "上市",
+            "industry": "半導體業",
+            "close": 27.95,
+            "high": 25.4,
+            "change_percent": 11.35,
+            "osc": 1.424
+        },
+        {
+            "code": "6574",
+            "name": "霈方",
+            "market": "上櫃",
+            "industry": "生技醫療業",
+            "close": 132.5,
+            "high": 123.5,
+            "change_percent": 8.61,
+            "osc": 0.726
+        },
+        {
+            "code": "6577",
+            "name": "勁豐",
+            "market": "上櫃",
+            "industry": "電腦及週邊設備業",
+            "close": 80.0,
+            "high": 75.5,
+            "change_percent": 6.81,
+            "osc": -0.303
+        },
+        {
+            "code": "6590",
+            "name": "普鴻",
+            "market": "上櫃",
+            "industry": "資訊服務業",
+            "close": 68.2,
+            "high": 66.6,
+            "change_percent": 3.02,
+            "osc": -0.099
+        },
+        {
+            "code": "6593",
+            "name": "台灣銘板",
+            "market": "上櫃",
+            "industry": "資訊服務業",
+            "close": 33.85,
+            "high": 33.8,
+            "change_percent": 1.8,
+            "osc": 0.15
+        },
+        {
+            "code": "6617",
+            "name": "共信-KY",
+            "market": "上櫃",
+            "industry": "生技醫療業",
+            "close": 110.0,
+            "high": 92.6,
+            "change_percent": 18.79,
+            "osc": 4.487
+        },
+        {
+            "code": "6637",
+            "name": "醫影",
+            "market": "上櫃",
+            "industry": "生技醫療業",
+            "close": 66.0,
+            "high": 64.0,
+            "change_percent": 3.61,
+            "osc": -0.14
+        },
+        {
+            "code": "6641",
+            "name": "基士德-KY",
+            "market": "上市",
+            "industry": "綠能環保",
+            "close": 18.55,
+            "high": 18.5,
+            "change_percent": 0.82,
+            "osc": 0.081
+        },
+        {
+            "code": "6712",
+            "name": "長聖",
+            "market": "上櫃",
+            "industry": "生技醫療業",
+            "close": 175.5,
+            "high": 165.0,
+            "change_percent": 10.03,
+            "osc": 4.784
+        },
+        {
+            "code": "6727",
+            "name": "亞泰金屬",
+            "market": "上櫃",
+            "industry": "電子零組件業",
+            "close": 517.0,
+            "high": 451.0,
+            "change_percent": 16.18,
+            "osc": -5.17
+        },
+        {
+            "code": "6732",
+            "name": "昇佳電子",
+            "market": "上櫃",
+            "industry": "半導體業",
+            "close": 196.0,
+            "high": 190.0,
+            "change_percent": 3.16,
+            "osc": 4.298
+        },
+        {
+            "code": "6767",
+            "name": "台微醫",
+            "market": "上櫃",
+            "industry": "生技醫療業",
+            "close": 26.4,
+            "high": 26.35,
+            "change_percent": 0.19,
+            "osc": -0.085
+        },
+        {
+            "code": "6840",
+            "name": "東研信超",
+            "market": "上櫃",
+            "industry": "其他電子業",
+            "close": 66.0,
+            "high": 65.2,
+            "change_percent": 1.23,
+            "osc": -0.263
+        },
+        {
+            "code": "6846",
+            "name": "綠茵",
+            "market": "上櫃",
+            "industry": "食品工業",
+            "close": 66.9,
+            "high": 66.6,
+            "change_percent": 4.04,
+            "osc": -0.296
+        },
+        {
+            "code": "6901",
+            "name": "鑽石投資",
+            "market": "上市",
+            "industry": "其他業",
+            "close": 20.75,
+            "high": 19.85,
+            "change_percent": 9.79,
+            "osc": 0.912
         },
         {
             "code": "6904",
@@ -1570,48 +1540,438 @@
             "industry": "其他業",
             "close": 128.0,
             "high": 126.5,
-            "change_percent": 1.19,
-            "osc": 0.253
+            "change_percent": 2.4,
+            "osc": 1.26
         },
         {
-            "code": "5704",
-            "name": "老爺知",
-            "market": "上櫃",
-            "industry": "觀光餐旅",
-            "close": 21.6,
-            "high": 21.55,
-            "change_percent": 1.17,
-            "osc": -0.054
-        },
-        {
-            "code": "4581",
-            "name": "光隆精密-KY",
-            "market": "上市",
-            "industry": "汽車工業",
-            "close": 50.5,
-            "high": 50.4,
-            "change_percent": 1.1,
-            "osc": -0.463
-        },
-        {
-            "code": "8093",
-            "name": "保銳",
+            "code": "6913",
+            "name": "鴻呈",
             "market": "上櫃",
             "industry": "電子零組件業",
-            "close": 20.0,
-            "high": 19.85,
-            "change_percent": 0.76,
-            "osc": -0.774
+            "close": 127.0,
+            "high": 123.5,
+            "change_percent": 3.25,
+            "osc": -0.6
         },
         {
-            "code": "2801",
-            "name": "彰銀",
+            "code": "6918",
+            "name": "愛派司",
             "market": "上市",
-            "industry": "金融保險業",
-            "close": 24.05,
-            "high": 24.0,
+            "industry": "生技醫療業",
+            "close": 74.1,
+            "high": 74.0,
+            "change_percent": 0.82,
+            "osc": 0.334
+        },
+        {
+            "code": "6919",
+            "name": "康霈*",
+            "market": "上市",
+            "industry": "生技醫療業",
+            "close": 107.5,
+            "high": 102.0,
+            "change_percent": 7.82,
+            "osc": 1.284
+        },
+        {
+            "code": "6933",
+            "name": "AMAX-KY",
+            "market": "上市",
+            "industry": "電腦及週邊設備業",
+            "close": 157.5,
+            "high": 156.5,
+            "change_percent": 3.62,
+            "osc": -0.58
+        },
+        {
+            "code": "6934",
+            "name": "心誠鎂",
+            "market": "上市",
+            "industry": "生技醫療業",
+            "close": 79.7,
+            "high": 70.8,
+            "change_percent": 14.68,
+            "osc": -1.286
+        },
+        {
+            "code": "6957",
+            "name": "裕慶-KY",
+            "market": "上市",
+            "industry": "其他業",
+            "close": 209.5,
+            "high": 194.0,
+            "change_percent": 8.55,
+            "osc": 5.146
+        },
+        {
+            "code": "6965",
+            "name": "中傑-KY",
+            "market": "上市",
+            "industry": "運動休閒",
+            "close": 80.0,
+            "high": 79.9,
+            "change_percent": 2.56,
+            "osc": 0.231
+        },
+        {
+            "code": "6968",
+            "name": "萬達寵物",
+            "market": "上櫃",
+            "industry": "居家生活",
+            "close": 43.0,
+            "high": 42.75,
+            "change_percent": 1.42,
+            "osc": 0.316
+        },
+        {
+            "code": "7714",
+            "name": "創泓科技",
+            "market": "上櫃",
+            "industry": "數位雲端",
+            "close": 172.5,
+            "high": 163.5,
+            "change_percent": 8.15,
+            "osc": 3.626
+        },
+        {
+            "code": "7786",
+            "name": "東方風能",
+            "market": "上市",
+            "industry": "綠能環保",
+            "close": 132.5,
+            "high": 126.0,
+            "change_percent": 5.16,
+            "osc": 2.845
+        },
+        {
+            "code": "7799",
+            "name": "禾榮科",
+            "market": "上市",
+            "industry": "生技醫療業",
+            "close": 435.5,
+            "high": 432.5,
+            "change_percent": 11.38,
+            "osc": 15.844
+        },
+        {
+            "code": "7811",
+            "name": "民盛",
+            "market": "上櫃",
+            "industry": "運動休閒",
+            "close": 80.5,
+            "high": 78.8,
+            "change_percent": 2.16,
+            "osc": 0.78
+        },
+        {
+            "code": "8016",
+            "name": "矽創",
+            "market": "上市",
+            "industry": "半導體業",
+            "close": 363.0,
+            "high": 347.5,
+            "change_percent": 8.68,
+            "osc": 10.267
+        },
+        {
+            "code": "8024",
+            "name": "佑華",
+            "market": "上櫃",
+            "industry": "半導體業",
+            "close": 16.8,
+            "high": 16.75,
+            "change_percent": 5.99,
+            "osc": 0.495
+        },
+        {
+            "code": "8033",
+            "name": "雷虎",
+            "market": "上市",
+            "industry": "其他業",
+            "close": 227.0,
+            "high": 204.5,
+            "change_percent": 11.0,
+            "osc": 6.469
+        },
+        {
+            "code": "8038",
+            "name": "長園科",
+            "market": "上櫃",
+            "industry": "電子零組件業",
+            "close": 44.4,
+            "high": 40.45,
+            "change_percent": 10.59,
+            "osc": 0.033
+        },
+        {
+            "code": "8076",
+            "name": "伍豐",
+            "market": "上櫃",
+            "industry": "電腦及週邊設備業",
+            "close": 26.55,
+            "high": 26.15,
+            "change_percent": 2.12,
+            "osc": 0.283
+        },
+        {
+            "code": "8096",
+            "name": "擎亞",
+            "market": "上櫃",
+            "industry": "電子通路業",
+            "close": 166.5,
+            "high": 157.5,
+            "change_percent": 5.71,
+            "osc": 5.676
+        },
+        {
+            "code": "8099",
+            "name": "大世科",
+            "market": "上櫃",
+            "industry": "資訊服務業",
+            "close": 60.2,
+            "high": 60.1,
+            "change_percent": 1.69,
+            "osc": -0.126
+        },
+        {
+            "code": "8104",
+            "name": "錸寶",
+            "market": "上市",
+            "industry": "光電業",
+            "close": 41.15,
+            "high": 38.95,
+            "change_percent": 8.15,
+            "osc": 0.443
+        },
+        {
+            "code": "8109",
+            "name": "博大",
+            "market": "上櫃",
+            "industry": "電子零組件業",
+            "close": 151.0,
+            "high": 140.5,
+            "change_percent": 7.47,
+            "osc": 2.63
+        },
+        {
+            "code": "8150",
+            "name": "南茂",
+            "market": "上市",
+            "industry": "半導體業",
+            "close": 117.0,
+            "high": 112.5,
+            "change_percent": 11.43,
+            "osc": 2.461
+        },
+        {
+            "code": "8367",
+            "name": "建新國際",
+            "market": "上市",
+            "industry": "航運業",
+            "close": 40.6,
+            "high": 40.55,
+            "change_percent": 0.87,
+            "osc": -0.158
+        },
+        {
+            "code": "8383",
+            "name": "千附",
+            "market": "上櫃",
+            "industry": "半導體業",
+            "close": 69.7,
+            "high": 66.7,
+            "change_percent": 5.61,
+            "osc": 0.91
+        },
+        {
+            "code": "8411",
+            "name": "福貞-KY",
+            "market": "上市",
+            "industry": "其他業",
+            "close": 12.4,
+            "high": 12.35,
+            "change_percent": 0.4,
+            "osc": 0.031
+        },
+        {
+            "code": "8421",
+            "name": "旭源",
+            "market": "上櫃",
+            "industry": "其他業",
+            "close": 14.05,
+            "high": 13.3,
+            "change_percent": 7.25,
+            "osc": 0.0
+        },
+        {
+            "code": "8442",
+            "name": "威宏-KY",
+            "market": "上市",
+            "industry": "其他業",
+            "close": 45.5,
+            "high": 42.95,
+            "change_percent": 5.94,
+            "osc": 0.405
+        },
+        {
+            "code": "8462",
+            "name": "柏文",
+            "market": "上市",
+            "industry": "運動休閒",
+            "close": 159.0,
+            "high": 147.5,
+            "change_percent": 8.16,
+            "osc": 1.312
+        },
+        {
+            "code": "8481",
+            "name": "政伸",
+            "market": "上市",
+            "industry": "其他業",
+            "close": 42.2,
+            "high": 42.1,
+            "change_percent": 0.24,
+            "osc": 0.191
+        },
+        {
+            "code": "8905",
+            "name": "裕國",
+            "market": "上櫃",
+            "industry": "其他業",
+            "close": 29.7,
+            "high": 29.65,
+            "change_percent": 0.85,
+            "osc": -0.936
+        },
+        {
+            "code": "8927",
+            "name": "北基",
+            "market": "上櫃",
+            "industry": "油電燃氣業",
+            "close": 22.35,
+            "high": 22.2,
+            "change_percent": 2.76,
+            "osc": 0.52
+        },
+        {
+            "code": "8928",
+            "name": "鉅明",
+            "market": "上櫃",
+            "industry": "運動休閒",
+            "close": 23.35,
+            "high": 23.3,
             "change_percent": 0.21,
-            "osc": 0.395
+            "osc": 0.237
+        },
+        {
+            "code": "8929",
+            "name": "富堡",
+            "market": "上櫃",
+            "industry": "其他業",
+            "close": 15.0,
+            "high": 14.5,
+            "change_percent": 3.45,
+            "osc": 0.054
+        },
+        {
+            "code": "8930",
+            "name": "青鋼",
+            "market": "上櫃",
+            "industry": "鋼鐵工業",
+            "close": 30.75,
+            "high": 28.9,
+            "change_percent": 7.14,
+            "osc": 0.054
+        },
+        {
+            "code": "8931",
+            "name": "大汽電",
+            "market": "上櫃",
+            "industry": "油電燃氣業",
+            "close": 43.6,
+            "high": 42.7,
+            "change_percent": 2.83,
+            "osc": 0.282
+        },
+        {
+            "code": "8932",
+            "name": "智通*",
+            "market": "上櫃",
+            "industry": "其他業",
+            "close": 118.5,
+            "high": 113.0,
+            "change_percent": 12.32,
+            "osc": 1.964
+        },
+        {
+            "code": "9802",
+            "name": "鈺齊-KY",
+            "market": "上市",
+            "industry": "運動休閒",
+            "close": 75.0,
+            "high": 74.8,
+            "change_percent": 0.81,
+            "osc": 0.578
+        },
+        {
+            "code": "9918",
+            "name": "欣天然",
+            "market": "上市",
+            "industry": "油電燃氣業",
+            "close": 43.75,
+            "high": 43.45,
+            "change_percent": 1.04,
+            "osc": -0.242
+        },
+        {
+            "code": "9925",
+            "name": "新保",
+            "market": "上市",
+            "industry": "其他業",
+            "close": 41.3,
+            "high": 40.9,
+            "change_percent": 1.1,
+            "osc": 0.075
+        },
+        {
+            "code": "9940",
+            "name": "信義",
+            "market": "上市",
+            "industry": "其他業",
+            "close": 19.7,
+            "high": 19.55,
+            "change_percent": 1.03,
+            "osc": 0.169
+        },
+        {
+            "code": "9942",
+            "name": "茂順",
+            "market": "上市",
+            "industry": "其他業",
+            "close": 120.0,
+            "high": 119.5,
+            "change_percent": 0.42,
+            "osc": -0.076
+        },
+        {
+            "code": "9949",
+            "name": "琉園",
+            "market": "上櫃",
+            "industry": "文化創意業",
+            "close": 29.5,
+            "high": 27.9,
+            "change_percent": 10.07,
+            "osc": -0.111
+        },
+        {
+            "code": "9950",
+            "name": "萬國通",
+            "market": "上櫃",
+            "industry": "塑膠工業",
+            "close": 10.65,
+            "high": 10.6,
+            "change_percent": 0.47,
+            "osc": -0.036
         }
     ]
 }

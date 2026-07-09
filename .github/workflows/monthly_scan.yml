@@ -1,4 +1,4 @@
-name: Monthly TW Stock Scan
+name: Weekly TW Stock Scan
 
 on:
   workflow_dispatch:
@@ -47,7 +47,7 @@ jobs:
           git add docs/data/result.json
 
           if ! git diff --cached --quiet; then
-            git commit -m "Auto update monthly result.json"
+            git commit -m "Auto update weekly result.json"
           else
             echo "No changes to commit."
           fi

@@ -56,9 +56,15 @@ function renderPage(page) {
 
     stocks.forEach(stock => {
 
-        const close = Number(stock.close).toFixed(2);
+        const close =
+            stock.close != null
+                ? Number(stock.close).toFixed(2)
+                : "--";
 
-        const high = Number(stock.high).toFixed(2);
+        const high =
+            stock.high != null
+                ? Number(stock.high).toFixed(2)
+                : "--";
 
         const change =
             stock.change_percent != null
@@ -90,24 +96,24 @@ function renderPage(page) {
                 <h3>${stock.code} ${stock.name}</h3>
 
                 <p>
-                    本月收盤：
+                    本週收盤：
                     <strong>${close}</strong>
                 </p>
 
                 <p>
-                    上月最高：
+                    上週最高：
                     <strong>${high}</strong>
                 </p>
 
                 <p>
-                    本月漲幅：
+                    本週漲幅：
                     <span class="osc-up">
                         ${change}%
                     </span>
                 </p>
 
                 <p>
-                    OSC：
+                    週OSC：
                     <span class="${oscClass}">
                         ${osc}
                     </span>

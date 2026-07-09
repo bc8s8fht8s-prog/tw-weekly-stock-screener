@@ -3,31 +3,42 @@ import pandas as pd
 
 def check_strategy(df: pd.DataFrame):
 
-    # 至少需要 35 根月K，避免 MACD 因歷史資料不足而不穩定
+    # 至少需要35根週K，避免MACD因歷史資料不足而不穩定
     if len(df) < 35:
         return None
 
-    this_month = df.iloc[-1]
-    last_month = df.iloc[-2]
+    # 本週
+    this_week = df.iloc[-1]
 
-    close_this_month = float(this_month["Close"])
-    high_last_month = float(last_month["High"])
+    # 上週
+    last_week = df.iloc[-2]
 
-    osc_this_month = float(this_month["OSC"])
-    osc_last_month = float(last_month["OSC"])
+    close_this_week = float(this_week["Close"])
+    high_last_week = float(last_week["High"])
 
-    # 條件一：本月收盤 > 上月最高（含上影線）
-    condition1 = close_this_month > high_last_month
+    osc_this_week = float(this_week["OSC"])
+    osc_last_week = float(last_week["OSC"])
 
-    # 條件二：本月 OSC > 上月 OSC（嚴格大於）
-    condition2 = osc_this_month > osc_last_month
+    # 條件一：本週收盤 > 上週最高（包含上影線）
+    condition1 = close_this_week > high_last_week
+
+    # 條件二：OSC不得轉弱
+    if osc_this_week >= 0:
+        # 正值必須持續放大
+        condition2 = osc_this_week >= osc_last_week
+    else:
+        # 負值必須向0軸收斂
+        condition2 = abs(osc_this_week) <= abs(osc_last_week)
 
     return {
-        "close": close_this_month,
-        "high": high_last_month,
-        "osc": osc_this_month,
-        "osc_prev": osc_last_month,
+        "close": round(close_this_week, 2),
+        "high": round(high_last_week, 2),
+
+        "osc": round(osc_this_week, 4),
+        "osc_prev": round(osc_last_week, 4),
+
         "condition1": condition1,
         "condition2": condition2,
+
         "pass": condition1 and condition2,
     }
