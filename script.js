@@ -9,6 +9,28 @@ let allStocks = [];
 // 搜尋後股票
 let filteredStocks = [];
 
+// 排序方式
+let sortMode = "code";
+
+function sortStocks() {
+
+    if (sortMode === "code") {
+
+        filteredStocks.sort((a, b) =>
+            Number(a.code) - Number(b.code)
+        );
+
+    } else if (sortMode === "change") {
+
+        filteredStocks.sort((a, b) =>
+            Number(b.change_percent || 0) -
+            Number(a.change_percent || 0)
+        );
+
+    }
+
+}
+
 async function loadData() {
 
     const response = await fetch("docs/data/result.json");
@@ -17,6 +39,8 @@ async function loadData() {
 
     allStocks = data.stocks;
     filteredStocks = [...allStocks];
+
+    sortStocks();
 
     document.getElementById("update_time").textContent = data.update_time;
     document.getElementById("scan_count").textContent = data.scan_count;
@@ -229,6 +253,22 @@ function searchStocks() {
         });
 
     }
+
+    sortStocks();
+
+    currentPage = 1;
+
+    renderPage(1);
+
+}
+
+function changeSort() {
+
+    sortMode = document
+        .getElementById("sortSelect")
+        .value;
+
+    sortStocks();
 
     currentPage = 1;
 
