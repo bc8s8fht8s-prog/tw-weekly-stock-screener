@@ -7,7 +7,7 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>台股週K選股</title>
+    <title>台股週Ｋ選股</title>
 
     <link rel="stylesheet" href="static/style.css">
 
@@ -17,7 +17,7 @@
 
     <div class="container">
 
-        <h1>📈 台股週K選股</h1>
+        <h1>📈 台股週Ｋ選股</h1>
 
         <div class="info">
 
@@ -38,15 +38,10 @@
 
         </div>
 
-        <!-- 搜尋 + 排序 -->
+        <!-- 搜尋 -->
         <div
             style="
-                margin:20px 0;
-                display:flex;
-                justify-content:center;
-                align-items:center;
-                gap:10px;
-                flex-wrap:wrap;
+                margin:20px 0 10px 0;
             "
         >
 
@@ -56,9 +51,7 @@
                 placeholder="🔍 輸入股號或股名..."
                 oninput="searchStocks()"
                 style="
-                    flex:1;
-                    min-width:220px;
-                    max-width:420px;
+                    width:100%;
                     padding:12px 16px;
                     font-size:16px;
                     border:1px solid #cccccc;
@@ -68,10 +61,22 @@
                 "
             >
 
+        </div>
+
+        <!-- 排序 + 週OSC -->
+        <div
+            style="
+                display:flex;
+                gap:10px;
+                margin-bottom:20px;
+            "
+        >
+
             <select
                 id="sortSelect"
                 onchange="changeSort()"
                 style="
+                    flex:1;
                     padding:12px;
                     font-size:16px;
                     border:1px solid #cccccc;
@@ -84,6 +89,25 @@
                 <option value="change">漲跌幅排序</option>
             </select>
 
+            <select
+                id="oscFilter"
+                onchange="changeOscFilter()"
+                style="
+                    flex:1;
+                    padding:12px;
+                    font-size:16px;
+                    border:1px solid #cccccc;
+                    border-radius:10px;
+                    outline:none;
+                    cursor:pointer;
+                "
+            >
+                <option value="0">週 OSC 不設限</option>
+                <option value="1">週 OSC ±1</option>
+                <option value="2">週 OSC ±2</option>
+                <option value="3">週 OSC ±3</option>
+            </select>
+
         </div>
 
         <div id="stock-list"></div>
@@ -92,8 +116,7 @@
 
     </div>
 
-    <!-- 更新版本號避免瀏覽器快取 -->
-    <script src="script.js?v=2.1.0"></script>
+    <script src="script.js?v=2.2.0"></script>
 
 </body>
 

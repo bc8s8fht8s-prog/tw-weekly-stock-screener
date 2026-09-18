@@ -12,6 +12,9 @@ let filteredStocks = [];
 // 排序方式
 let sortMode = "code";
 
+// OSC 篩選
+let oscFilter = 0;
+
 function sortStocks() {
 
     if (sortMode === "code") {
@@ -31,22 +34,67 @@ function sortStocks() {
 
 }
 
+function applyFilters() {
+
+    const keyword = document
+        .getElementById("search")
+        .value
+        .trim()
+        .toLowerCase();
+
+    filteredStocks = allStocks.filter(stock => {
+
+        // ---------- 搜尋 ----------
+        const matchKeyword =
+            keyword === "" ||
+            String(stock.code).toLowerCase().includes(keyword) ||
+            String(stock.name).toLowerCase().includes(keyword);
+
+        if (!matchKeyword) {
+            return false;
+        }
+
+        // ---------- 週 OSC ----------
+        if (oscFilter !== 0) {
+
+            if (stock.osc == null) {
+                return false;
+            }
+
+            if (Math.abs(Number(stock.osc)) > oscFilter) {
+                return false;
+            }
+
+        }
+
+        return true;
+
+    });
+
+    sortStocks();
+
+    document.getElementById("count").textContent =
+        filteredStocks.length + " 檔";
+
+    renderPage(1);
+
+}
+
 async function loadData() {
 
-    const response = await fetch("docs/data/result.json");
+    const response = await fetch("data/result.json");
 
     data = await response.json();
 
     allStocks = data.stocks;
-    filteredStocks = [...allStocks];
 
-    sortStocks();
+    document.getElementById("update_time").textContent =
+        data.update_time;
 
-    document.getElementById("update_time").textContent = data.update_time;
-    document.getElementById("scan_count").textContent = data.scan_count;
-    document.getElementById("count").textContent = data.count + " 檔";
+    document.getElementById("scan_count").textContent =
+        data.scan_count;
 
-    renderPage(1);
+    applyFilters();
 
 }
 
@@ -54,14 +102,16 @@ function renderPage(page) {
 
     currentPage = page;
 
-    const stockList = document.getElementById("stock-list");
+    const stockList =
+        document.getElementById("stock-list");
 
     stockList.innerHTML = "";
 
     const start = (page - 1) * pageSize;
     const end = start + pageSize;
 
-    const stocks = filteredStocks.slice(start, end);
+    const stocks =
+        filteredStocks.slice(start, end);
 
     // 沒有搜尋結果
     if (stocks.length === 0) {
@@ -81,37 +131,25 @@ function renderPage(page) {
     stocks.forEach(stock => {
 
         const close =
-            stock.close != null
-                ? Number(stock.close).toFixed(2)
-                : "--";
+            Number(stock.close).toFixed(2);
 
         const high =
-            stock.high != null
-                ? Number(stock.high).toFixed(2)
-                : "--";
+            Number(stock.high).toFixed(2);
 
         const change =
             stock.change_percent != null
                 ? Number(stock.change_percent).toFixed(2)
                 : "--";
 
+        const oscValue = stock.osc;
+
         const osc =
-            stock.osc != null
-                ? Number(stock.osc).toFixed(3)
+            oscValue != null
+                ? Number(oscValue).toFixed(3)
                 : "--";
 
-        // OSC 顏色
-        let oscClass = "osc-neutral";
-
-        if (stock.osc > 0) {
-
-            oscClass = "osc-up";
-
-        } else if (stock.osc < 0) {
-
-            oscClass = "osc-down";
-
-        }
+        const oscClass =
+            oscValue >= 0 ? "osc-up" : "osc-down";
 
         stockList.innerHTML += `
 
@@ -131,13 +169,11 @@ function renderPage(page) {
 
                 <p>
                     本週漲幅：
-                    <span class="osc-up">
-                        ${change}%
-                    </span>
+                    <span class="change-up">${change}%</span>
                 </p>
 
                 <p>
-                    週OSC：
+                    週 OSC：
                     <span class="${oscClass}">
                         ${osc}
                     </span>
@@ -155,11 +191,11 @@ function renderPage(page) {
 
 function renderPagination() {
 
-    const totalPages = Math.ceil(filteredStocks.length / pageSize);
+    const totalPages =
+        Math.ceil(filteredStocks.length / pageSize);
 
     let html = "";
 
-    // 上一頁
     if (currentPage > 1) {
 
         html += `
@@ -171,8 +207,11 @@ function renderPagination() {
 
     }
 
-    let startPage = Math.max(1, currentPage - 2);
-    let endPage = Math.min(totalPages, currentPage + 2);
+    let startPage =
+        Math.max(1, currentPage - 2);
+
+    let endPage =
+        Math.min(totalPages, currentPage + 2);
 
     if (currentPage <= 3) {
         endPage = Math.min(5, totalPages);
@@ -206,7 +245,6 @@ function renderPagination() {
 
     }
 
-    // 下一頁
     if (currentPage < totalPages) {
 
         html += `
@@ -228,51 +266,26 @@ function renderPagination() {
 
 function searchStocks() {
 
-    const keyword = document
-        .getElementById("search")
-        .value
-        .trim()
-        .toLowerCase();
-
-    if (keyword === "") {
-
-        filteredStocks = [...allStocks];
-
-    } else {
-
-        filteredStocks = allStocks.filter(stock => {
-
-            const code = String(stock.code).toLowerCase();
-            const name = String(stock.name).toLowerCase();
-
-            return (
-                code.includes(keyword) ||
-                name.includes(keyword)
-            );
-
-        });
-
-    }
-
-    sortStocks();
-
-    currentPage = 1;
-
-    renderPage(1);
+    applyFilters();
 
 }
 
 function changeSort() {
 
-    sortMode = document
-        .getElementById("sortSelect")
-        .value;
+    sortMode =
+        document.getElementById("sortSelect").value;
 
-    sortStocks();
+    applyFilters();
 
-    currentPage = 1;
+}
 
-    renderPage(1);
+function changeOscFilter() {
+
+    oscFilter = Number(
+        document.getElementById("oscFilter").value
+    );
+
+    applyFilters();
 
 }
 
