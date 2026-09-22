@@ -82,7 +82,9 @@ function applyFilters() {
 
 async function loadData() {
 
-    const response = await fetch("data/result.json");
+    // 加入時間參數，避免瀏覽器快取舊的 result.json
+    const response =
+        await fetch("data/result.json?t=" + Date.now());
 
     data = await response.json();
 
