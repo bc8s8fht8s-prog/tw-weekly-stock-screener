@@ -1,17 +1,17 @@
 {
-    "update_time": "2026-11-20 12:14:54",
+    "update_time": "2026-11-20 15:11:19",
     "scan_count": 1925,
-    "count": 28,
+    "count": 22,
     "stocks": [
         {
             "code": "1229",
             "name": "聯華",
             "market": "上市",
             "industry": "食品工業",
-            "close": 39.35,
+            "close": 38.65,
             "high": 38.6,
-            "change_percent": 4.24,
-            "osc": -0.13
+            "change_percent": 2.38,
+            "osc": -0.175
         },
         {
             "code": "1323",
@@ -24,74 +24,24 @@
             "osc": 0.07
         },
         {
-            "code": "1614",
-            "name": "三洋電",
-            "market": "上市",
-            "industry": "電器電纜",
-            "close": 31.9,
-            "high": 31.7,
-            "change_percent": 0.63,
-            "osc": 0.186
-        },
-        {
-            "code": "2474",
-            "name": "可成",
-            "market": "上市",
-            "industry": "其他電子業",
-            "close": 196.5,
-            "high": 195.5,
-            "change_percent": 0.77,
-            "osc": -1.028
-        },
-        {
-            "code": "2540",
-            "name": "愛山林",
-            "market": "上市",
-            "industry": "建材營造業",
-            "close": 47.15,
-            "high": 46.1,
-            "change_percent": 2.72,
-            "osc": -0.373
-        },
-        {
-            "code": "2597",
-            "name": "潤弘",
-            "market": "上市",
-            "industry": "建材營造業",
-            "close": 178.0,
-            "high": 176.0,
-            "change_percent": 1.14,
-            "osc": 0.647
-        },
-        {
-            "code": "2910",
-            "name": "統領",
-            "market": "上市",
-            "industry": "貿易百貨業",
-            "close": 23.9,
-            "high": 23.55,
-            "change_percent": 5.75,
-            "osc": -0.125
-        },
-        {
             "code": "2923",
             "name": "鼎固-KY",
             "market": "上市",
             "industry": "建材營造業",
-            "close": 33.15,
+            "close": 31.5,
             "high": 30.6,
-            "change_percent": 26.77,
-            "osc": 0.369
+            "change_percent": 20.46,
+            "osc": 0.264
         },
         {
             "code": "3523",
             "name": "迎輝",
             "market": "上櫃",
             "industry": "光電業",
-            "close": 12.5,
+            "close": 12.35,
             "high": 12.1,
-            "change_percent": 3.31,
-            "osc": -0.257
+            "change_percent": 2.07,
+            "osc": -0.267
         },
         {
             "code": "3632",
@@ -108,40 +58,30 @@
             "name": "全宇生技-KY",
             "market": "上市",
             "industry": "生技醫療業",
-            "close": 33.65,
+            "close": 33.7,
             "high": 32.3,
-            "change_percent": 4.18,
-            "osc": 0.301
+            "change_percent": 4.33,
+            "osc": 0.304
+        },
+        {
+            "code": "4728",
+            "name": "雙美",
+            "market": "上櫃",
+            "industry": "生技醫療業",
+            "close": 396.5,
+            "high": 392.0,
+            "change_percent": 3.12,
+            "osc": -0.34
         },
         {
             "code": "4807",
             "name": "日成-KY",
             "market": "上市",
             "industry": "貿易百貨業",
-            "close": 34.45,
+            "close": 33.5,
             "high": 32.7,
-            "change_percent": 7.32,
-            "osc": -0.361
-        },
-        {
-            "code": "5212",
-            "name": "凌網",
-            "market": "上櫃",
-            "industry": "資訊服務業",
-            "close": 53.4,
-            "high": 52.5,
-            "change_percent": 3.49,
-            "osc": 0.637
-        },
-        {
-            "code": "5310",
-            "name": "天剛",
-            "market": "上櫃",
-            "industry": "資訊服務業",
-            "close": 24.7,
-            "high": 24.5,
-            "change_percent": 2.92,
-            "osc": -0.076
+            "change_percent": 4.36,
+            "osc": -0.421
         },
         {
             "code": "5457",
@@ -158,20 +98,20 @@
             "name": "遠雄",
             "market": "上市",
             "industry": "建材營造業",
-            "close": 63.0,
+            "close": 62.9,
             "high": 59.0,
-            "change_percent": 8.81,
-            "osc": -0.088
+            "change_percent": 8.64,
+            "osc": -0.094
         },
         {
             "code": "5903",
             "name": "全家",
             "market": "上櫃",
             "industry": "居家生活",
-            "close": 185.5,
+            "close": 186.0,
             "high": 185.0,
-            "change_percent": 0.27,
-            "osc": 0.114
+            "change_percent": 0.54,
+            "osc": 0.146
         },
         {
             "code": "6236",
@@ -182,6 +122,16 @@
             "high": 13.8,
             "change_percent": 12.55,
             "osc": -0.044
+        },
+        {
+            "code": "6264",
+            "name": "富裔",
+            "market": "上櫃",
+            "industry": "建材營造業",
+            "close": 6.45,
+            "high": 6.15,
+            "change_percent": 7.14,
+            "osc": 0.056
         },
         {
             "code": "6614",
@@ -198,50 +148,30 @@
             "name": "科定",
             "market": "上市",
             "industry": "其他業",
-            "close": 139.5,
+            "close": 139.0,
             "high": 135.0,
-            "change_percent": 3.33,
-            "osc": 1.91
-        },
-        {
-            "code": "6743",
-            "name": "安普新",
-            "market": "上市",
-            "industry": "其他電子業",
-            "close": 32.7,
-            "high": 32.55,
-            "change_percent": 0.46,
-            "osc": 0.104
+            "change_percent": 2.96,
+            "osc": 1.878
         },
         {
             "code": "6965",
             "name": "中傑-KY",
             "market": "上市",
             "industry": "運動休閒",
-            "close": 63.4,
+            "close": 63.0,
             "high": 60.3,
-            "change_percent": 10.84,
-            "osc": -0.579
+            "change_percent": 10.14,
+            "osc": -0.605
         },
         {
             "code": "7584",
             "name": "樂意",
             "market": "上櫃",
             "industry": "文化創意業",
-            "close": 46.4,
+            "close": 46.7,
             "high": 37.4,
-            "change_percent": 24.06,
-            "osc": 2.022
-        },
-        {
-            "code": "7722",
-            "name": "LINEPAY",
-            "market": "上市",
-            "industry": "數位雲端",
-            "close": 242.5,
-            "high": 237.5,
-            "change_percent": 3.85,
-            "osc": 1.322
+            "change_percent": 24.87,
+            "osc": 2.042
         },
         {
             "code": "7765",
@@ -254,14 +184,24 @@
             "osc": 6.939
         },
         {
+            "code": "7770",
+            "name": "君曜",
+            "market": "上櫃",
+            "industry": "半導體業",
+            "close": 40.5,
+            "high": 39.45,
+            "change_percent": 5.19,
+            "osc": 0.818
+        },
+        {
             "code": "8415",
             "name": "大國鋼",
             "market": "上櫃",
             "industry": "鋼鐵工業",
-            "close": 40.55,
+            "close": 39.85,
             "high": 39.3,
-            "change_percent": 8.42,
-            "osc": 0.224
+            "change_percent": 6.55,
+            "osc": 0.179
         },
         {
             "code": "8426",
@@ -274,14 +214,14 @@
             "osc": 0.4
         },
         {
-            "code": "9933",
-            "name": "中鼎",
-            "market": "上市",
-            "industry": "其他業",
-            "close": 53.0,
-            "high": 52.6,
-            "change_percent": 2.71,
-            "osc": 0.86
+            "code": "8455",
+            "name": "大拓-KY",
+            "market": "上櫃",
+            "industry": "其他電子業",
+            "close": 32.6,
+            "high": 32.5,
+            "change_percent": 4.15,
+            "osc": 0.992
         }
     ]
 }
